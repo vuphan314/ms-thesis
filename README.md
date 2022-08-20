@@ -1,5 +1,5 @@
 # Weighted Model Counting with Algebraic Decision Diagrams
-- This repository supplements Vu Phan's MS thesis in Computer Science at Rice University.
+- This repository supplements Vu Phan's [MS thesis](https://scholarship.rice.edu/handle/1911/107761).
 - We provide ADDMC, an exact solver for *weighted model counting (WMC)*.
 - ADDMC uses *algebraic decision diagrams (ADDs)*.
 
@@ -13,26 +13,23 @@ git clone https://github.com/vuphan314/ms-thesis
 --------------------------------------------------------------------------------
 
 ## Downloading
-- Benchmarks: [benchmarks.zip](https://github.com/vardigroup/ADDMC/releases/download/v1.0.0/benchmarks.zip)
-- Experimental data: [experimenting.zip](https://github.com/vardigroup/ADDMC/releases/download/v1.0.0/experimenting.zip)
+- [Benchmarks](https://github.com/vuphan314/ms-thesis/releases/download/v0/benchmarks.zip)
+- [Experimental data](https://github.com/vuphan314/ms-thesis/releases/download/v0/experimenting.zip)
 
 --------------------------------------------------------------------------------
 
 ## Installation
 
 ### Prerequisites
-#### External
-- autoconf 2.69
-- cmake 2.8.9
-- g++ 6.4.0
-- make 3.82
-- tar 1.30
-- unzip 6.00
-#### Included
-- cudd 3.0.0
-- cxxopts 2.1.2
+#### External libraries
+- automake 1.16
+- cmake 3.16
+- g++ 11.2
+#### [Included libraries](./addmc/libraries/)
+- [cudd 3.0](https://github.com/vuphan314/cudd)
+- [cxxopts 2.1](https://github.com/jarro2783/cxxopts)
 
-### Command
+### Command to build statically linked executable
 ```bash
 ./INSTALL.sh
 ```
@@ -60,41 +57,41 @@ Usage:
   -h, --hi      help information
       --cf arg  cnf file path (to use stdin, type: '--cf -')      Default: -
       --wf arg  weight format in cnf file:
-           1    UNWEIGHTED                                        
-           2    MINIC2D                                           
-           3    CACHET                                            
+           1    UNWEIGHTED
+           2    MINIC2D
+           3    CACHET
            4    MCC                                               Default: 4
       --ch arg  clustering heuristic:
-           1    MONOLITHIC                                        
-           2    LINEAR                                            
-           3    BUCKET_LIST                                       
-           4    BUCKET_TREE                                       
-           5    BOUQUET_LIST                                      
+           1    MONOLITHIC
+           2    LINEAR
+           3    BUCKET_LIST
+           4    BUCKET_TREE
+           5    BOUQUET_LIST
            6    BOUQUET_TREE                                      Default: 6
       --cv arg  cluster variable order heuristic (negate to invert):
-           1    APPEARANCE                                        
-           2    DECLARATION                                       
-           3    RANDOM                                            
-           4    MCS                                               
+           1    APPEARANCE
+           2    DECLARATION
+           3    RANDOM
+           4    MCS
            5    LEXP                                              Default: 5
-           6    LEXM                                              
+           6    LEXM
       --dv arg  diagram variable order heuristic (negate to invert):
-           1    APPEARANCE                                        
-           2    DECLARATION                                       
-           3    RANDOM                                            
+           1    APPEARANCE
+           2    DECLARATION
+           3    RANDOM
            4    MCS                                               Default: 4
-           5    LEXP                                              
-           6    LEXM                                              
+           5    LEXP
+           6    LEXM
       --rs arg  random seed                                       Default: 10
       --vl arg  verbosity level:
            0    solution only                                     Default: 0
-           1    parsed info as well                               
-           2    clusters as well                                  
-           3    cnf literal weights as well                       
-           4    input lines as well                               
+           1    parsed info as well
+           2    clusters as well
+           3    cnf literal weights as well
+           4    input lines as well
 ```
 
-### Computing model count given cnf file from stdin
+### Computing model count given CNF file from stdin
 #### Command
 ```bash
 build/addmc < examples/track2_000.mcc2020_wcnf
@@ -121,11 +118,11 @@ s wmc 1.37729e-05
 c ------------------------------------------------------------------
 
 c ==================================================================
-c seconds                       0.034          
+c seconds                       0.034
 c ==================================================================
 ```
 
-### Computing model count given cnf file with weight format `UNWEIGHTED`
+### Computing model count given CNF file with weight format `UNWEIGHTED`
 #### Command
 ```bash
 build/addmc --cf examples/UNWEIGHTED.cnf --wf 1
@@ -148,11 +145,11 @@ s mc 1
 c ------------------------------------------------------------------
 
 c ==================================================================
-c seconds                       0.019          
+c seconds                       0.019
 c ==================================================================
 ```
 
-### Computing model count given cnf file with weight format `MINIC2D`
+### Computing model count given CNF file with weight format `MINIC2D`
 #### Command
 ```bash
 build/addmc --cf examples/MINIC2D.cnf --wf 2
@@ -175,11 +172,11 @@ s wmc 2.2
 c ------------------------------------------------------------------
 
 c ==================================================================
-c seconds                       0.018          
+c seconds                       0.018
 c ==================================================================
 ```
 
-### Computing model count given cnf file with weight format `CACHET`
+### Computing model count given CNF file with weight format `CACHET`
 #### Command
 ```bash
 build/addmc --cf examples/CACHET.cnf --wf 3
@@ -202,17 +199,17 @@ s wmc 0.3
 c ------------------------------------------------------------------
 
 c ==================================================================
-c seconds                       0.019          
+c seconds                       0.019
 c ==================================================================
 ```
 
 --------------------------------------------------------------------------------
 
 ## Acknowledgment
-- Lucas Tabajara: [RSynth](https://bitbucket.org/lucas-mt/rsynth)
-- Fabio Somenzi: [CUDD package](https://github.com/ivmai/cudd)
-- Rob Rutenbar: [CUDD tutorial](http://db.zmitac.aei.polsl.pl/AO/dekbdd/F01-CUDD.pdf)
-- David Kebo: [CUDD visualization](https://davidkebo.com/cudd#cudd6)
-- Jarryd Beck: [cxxopts](https://github.com/jarro2783/cxxopts)
-- Henry Kautz and Tian Sang: [Cachet](https://cs.rochester.edu/u/kautz/Cachet)
-- Markus Hecher and Johannes Fichte: [model-counting competition](https://mccompetition.org/2020/mc_format)
+- Tabajara: [RSynth](https://bitbucket.org/lucas-mt/rsynth)
+- Somenzi: [CUDD package](https://github.com/ivmai/cudd)
+- Rutenbar: [CUDD tutorial](http://db.zmitac.aei.polsl.pl/AO/dekbdd/F01-CUDD.pdf)
+- Kebo: [CUDD visualization](https://davidkebo.com/cudd#cudd6)
+- Beck: [cxxopts](https://github.com/jarro2783/cxxopts)
+- Kautz and Sang: [Cachet](https://cs.rochester.edu/u/kautz/Cachet)
+- Hecher and Fichte: [model-counting competition](https://mccompetition.org/2020/mc_format)
