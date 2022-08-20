@@ -1,0 +1,350 @@
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Analyzing benchmark family BAYES with weight format WEIGHTED
+
+ADDMC errors for benchmark family BAYES with weight format MINIC2D: 0
+
+Excluding overflow completions
+
+Float equality tolerance: BIG - SMALL <= 0.001 if SMALL = 0 or BIG <= 1, else BIG / SMALL <= 1.001
+
+Correctness vs counter C2D with weight format DDNNF on benchmark family BAYES:
+Number of benchmarks with different model counts: 2
+Model count differences:
+	Base model count: 5.099231e+44
+		(50-18-1-q.cnf, 0.306813, 13.918, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 6.994493e+144
+		(75-23-2-q.cnf, 0.256497, 2.841, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+
+Correctness vs counter CACHET with weight format CACHET on benchmark family BAYES: all good
+
+Correctness vs counter D4 with weight format DDNNF on benchmark family BAYES:
+Number of benchmarks with different model counts: 11
+Model count differences:
+	Base model count: 9.31513e-05
+		(75-10-1-q.cnf, 0.00118507, 0.037, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 0.778195
+		(75-16-10-q.cnf, 0.774638, 0.284, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 0.00405777
+		(75-20-5-q.cnf, 0.00672085, 0.756, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 0.0109128
+		(90-12-10-q.cnf, 0.0195853, 0.06, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 1.03832
+		(90-12-4-q.cnf, 0.977349, 0.046, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 0.781781
+		(90-15-6-q.cnf, 0.884184, 0.112, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 1.01921
+		(90-20-4-q.cnf, 1.0, 0.32, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 0.0591958
+		(90-23-8-q.cnf, 0.177433, 0.941, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 0.00684058
+		(90-24-4-q.cnf, 0.0120528, 0.761, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 0.0116266
+		(90-26-3-q.cnf, 0.051503, 0.919, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 0.925171
+		(90-34-5-q.cnf, 0.914128, 3.561, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+
+Correctness vs counter MINIC2D with weight format MINIC2D on benchmark family BAYES: all good
+
+Performance summary {benchmark family: BAYES (1091), weight format: WEIGHTED}:
+Weight format Counter                          Unique       Fastest   Completions      Rate (%)  Med time (s)
+WEIGHTED      VBS_WEIGHTED                         NA            NA          1089         99.82          0.04
+WEIGHTED      VBS_WEIGHTED-no_ADDMC                NA            NA           965         88.45          0.72
+MINIC2D       ADDMC                               124           742          1082         99.18          0.04
+DDNNF         D4                                    2            66           937         85.88          1.00
+MINIC2D       MINIC2D                               0             0           904         82.86          2.27
+DDNNF         C2D                                   0             0           820         75.16          3.30
+CACHET        CACHET                                0           281           776         71.13          2.00
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Analyzing benchmark family PSEUDOWEIGHTED with weight format WEIGHTED
+
+ADDMC errors for benchmark family PSEUDOWEIGHTED with weight format MINIC2D: 0
+
+Excluding overflow completions
+
+Float equality tolerance: BIG - SMALL <= 0.001 if SMALL = 0 or BIG <= 1, else BIG / SMALL <= 1.001
+
+Correctness vs counter C2D with weight format DDNNF on benchmark family PSEUDOWEIGHTED:
+Number of benchmarks with different model counts: 8
+Model count differences:
+	Base model count: 7.292759e+33
+		(C638_FVK.cnf, 0.0, 2.947, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 2.899089e+17
+		(comm_p02_p_t10.cnf, 0.0, 107.4, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 5.832974e+17
+		(comm_p02_p_t9.cnf, 0.0, 59.996, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 1.134332e+29
+		(comm_p03_p_t10.cnf, 0.0, 634.908, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 4.225151e+20
+		(comm_p03_p_t6.cnf, 3.53401e+20, 247.476, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 6.717018e+20
+		(comm_p03_p_t8.cnf, 0.0, 356.53, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 3.047891e+31
+		(comm_p03_p_t9.cnf, 0.0, 544.346, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 1.784131e+31
+		(comm_p04_p_t5.cnf, 1.56492e+31, 784.402, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+
+Correctness vs counter CACHET with weight format CACHET on benchmark family PSEUDOWEIGHTED:
+Number of benchmarks with different model counts: 59
+Model count differences:
+	Base model count: -1.0
+		(C169_FV.cnf, 0.0, 0.755, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(C169_FW.cnf, 0.0, 0.739, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(C211_FS.cnf, 0.0, 17.772, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(C250_FV.cnf, 0.0, 1.05, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(C250_FW.cnf, 0.0, 1.051, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(C638_FKB.cnf, 9.07426e+29, 45.655, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(C638_FVK.cnf, 0.0, 2.947, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(D1119_M20.cnf, 0.0, 0.661, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(D1119_M23.cnf, 0.0, 0.873, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(bomb_b10_t10_p_t2.cnf, 1.32392e+225, 2.303, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(bomb_b10_t5_p_t2.cnf, 2.12487e+132, 0.749, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(bomb_b10_t5_p_t3.cnf, 2.10702e+186, 1.569, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(bomb_b10_t5_p_t4.cnf, 3.76808e+233, 2.893, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(bomb_b10_t5_p_t5.cnf, 3.16839e+288, 4.18, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(bomb_b20_t5_p_t1.cnf, 2.62529e+200, 1.258, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(bomb_b5_t1_p_t10.cnf, 6.0321e+103, 0.712, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(bomb_b5_t5_p_t10.cnf, 1.36705e+255, 3.784, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(bomb_b5_t5_p_t4.cnf, 3.308e+112, 0.699, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(bomb_b5_t5_p_t5.cnf, 4.38267e+142, 0.981, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(bomb_b5_t5_p_t6.cnf, 3.4701e+153, 1.389, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(bomb_b5_t5_p_t7.cnf, 8.78404e+194, 2.177, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(bomb_b5_t5_p_t8.cnf, 1.63797e+214, 2.688, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(bomb_b5_t5_p_t9.cnf, 3.80297e+231, 3.29, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(cnt07.shuffled.cnf, 0.0, 14.653, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(cnt08.shuffled.cnf, 0.0, 40.373, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(comm_p01_p_t10.cnf, 6.51821e+25, 17.861, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(comm_p01_p_t7.cnf, 5.11309e+26, 12.949, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(comm_p01_p_t8.cnf, 5.55362e+31, 20.418, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(comm_p01_p_t9.cnf, 2.68475e+41, 27.72, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(comm_p02_p_t10.cnf, 0.0, 107.4, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(comm_p02_p_t4.cnf, 9.8642e+29, 30.402, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(comm_p02_p_t5.cnf, 5.47448e+31, 65.287, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(comm_p02_p_t6.cnf, 1.07314e+30, 76.466, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(comm_p02_p_t7.cnf, 1.69849e+26, 94.555, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(comm_p02_p_t8.cnf, 2.28945e+23, 126.358, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(comm_p02_p_t9.cnf, 0.0, 59.996, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(comm_p03_p_t3.cnf, 1.2044e+44, 30.485, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(comm_p03_p_t4.cnf, 3.25779e+41, 176.389, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(comm_p03_p_t5.cnf, 9.02125e+25, 291.245, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(comm_p03_p_t6.cnf, 3.53401e+20, 247.476, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(comm_p03_p_t7.cnf, 8.27849e+38, 427.844, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(comm_p03_p_t8.cnf, 0.0, 356.53, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(comm_p03_p_t9.cnf, 0.0, 544.346, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(comm_p04_p_t2.cnf, 3.55621e+40, 14.595, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(comm_p04_p_t3.cnf, 4.71811e+43, 406.165, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(comm_p04_p_t4.cnf, 1.2144e+48, 908.524, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(comm_p04_p_t5.cnf, 1.56492e+31, 784.402, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(comm_p05_p_t2.cnf, 1.07025e+36, 86.49, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(comm_p05_p_t3.cnf, 1.4374e+42, 490.218, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(comm_p10_p_t1.cnf, 1.56764e+115, 609.711, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(emptyroom_d12_g6_p_t10.cnf, 0.0, 2.847, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(emptyroom_d12_g6_p_t9.cnf, 0.0, 10.039, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(emptyroom_d16_g8_p_t10.cnf, 0.0, 42.537, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(emptyroom_d16_g8_p_t7.cnf, 0.0, 122.064, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(emptyroom_d16_g8_p_t8.cnf, 0.0, 362.26, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(emptyroom_d16_g8_p_t9.cnf, 0.0, 61.819, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(emptyroom_d20_g10_corners_p_t10.cnf, 0.0, 247.808, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(emptyroom_d20_g10_corners_p_t7.cnf, 0.0, 109.173, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: -1.0
+		(family_grid_new_dispose_4_1_p_t1.cnf, 2.45191e+288, 589.041, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+
+Correctness vs counter D4 with weight format DDNNF on benchmark family PSEUDOWEIGHTED:
+Number of benchmarks with different model counts: 46
+Model count differences:
+	Base model count: 26643000000000.0
+		(2bitcomp_5.cnf, 35524000000000.0, 18.455, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 3.64638e+33
+		(C638_FVK.cnf, 0.0, 2.947, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 0.000230366
+		(blocks_right_2_p_t1.cnf, 0.00129435, 0.045, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 2.75093e-05
+		(blocks_right_2_p_t3.cnf, 0.0162467, 365.771, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 3505900000000.0
+		(coins_p01_p_t1.cnf, 105058000000000.0, 0.061, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 3.32162e+20
+		(coins_p01_p_t2.cnf, 1.10471e+22, 10.651, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 5.02023e+18
+		(coins_p01_p_t3.cnf, 1.21579e+24, 449.177, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 191616000000.0
+		(coins_p02_p_t1.cnf, 5742000000000.0, 0.065, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 285404000000.0
+		(coins_p02_p_t2.cnf, 768855000000000.0, 11.852, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 4.62706e+25
+		(coins_p02_p_t3.cnf, 5.69311e+26, 377.941, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 1188610000000000.0
+		(coins_p03_p_t1.cnf, 1.18726e+16, 0.065, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 42775700000.0
+		(coins_p03_p_t2.cnf, 1037100000000000.0, 16.735, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 8.06542e+22
+		(coins_p03_p_t3.cnf, 7.23435e+26, 354.187, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 17367900000000.0
+		(coins_p04_p_t1.cnf, 173483000000000.0, 0.065, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 6.03411e+22
+		(coins_p04_p_t2.cnf, 2.22982e+23, 12.21, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 1.42159e+19
+		(coins_p04_p_t3.cnf, 1.5742e+21, 415.525, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 7183440000000.0
+		(coins_p05_p_t1.cnf, 23917800000000.0, 0.07, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 4.16003e+18
+		(coins_p05_p_t2.cnf, 3.73559e+21, 13.858, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 108045000000000.0
+		(coins_p05_p_t3.cnf, 3.23041e+17, 397.332, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 1.02921e+44
+		(coins_p10_p_t1.cnf, 9.25243e+45, 14.876, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 2.89909e+17
+		(comm_p02_p_t10.cnf, 0.0, 107.4, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 5.83297e+17
+		(comm_p02_p_t9.cnf, 0.0, 59.996, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 1.13433e+29
+		(comm_p03_p_t10.cnf, 0.0, 634.908, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 4.22515e+20
+		(comm_p03_p_t6.cnf, 3.53401e+20, 247.476, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 6.71702e+20
+		(comm_p03_p_t8.cnf, 0.0, 356.53, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 3.04789e+31
+		(comm_p03_p_t9.cnf, 0.0, 544.346, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 1.78413e+31
+		(comm_p04_p_t5.cnf, 1.56492e+31, 784.402, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 35.5668
+		(emptyroom_d8_g4_p_t2.cnf, 25.7375, 0.095, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 0.240481
+		(emptyroom_d8_g4_p_t5.cnf, 0.201463, 0.373, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 0.0060771
+		(emptyroom_d8_g4_p_t7.cnf, 0.000125503, 0.567, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 2.45452e-05
+		(medium.cnf, 0.00334802, 0.064, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 7.46635e+37
+		(mixdup.cnf, 6.19393e+40, 0.065, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 0.341723
+		(sort_num_s_3_p_t8.cnf, 0.182737, 0.146, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 1.5073
+		(uts_k1_p_t1.cnf, 32.1558, 0.021, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 0.000317097
+		(uts_k1_p_t10.cnf, 15.9807, 0.598, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 0.910503
+		(uts_k1_p_t2.cnf, 46.0422, 0.041, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 38.7687
+		(uts_k1_p_t3.cnf, 57.3703, 0.103, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 1.99119
+		(uts_k1_p_t4.cnf, 188.581, 0.178, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 50.0702
+		(uts_k1_p_t5.cnf, 416.311, 0.266, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 0.00591713
+		(uts_k1_p_t6.cnf, 85.0146, 0.318, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 0.000249525
+		(uts_k1_p_t7.cnf, 8.4979, 0.368, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 988.876
+		(uts_k1_p_t8.cnf, 985534.0, 0.384, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 85.9661
+		(uts_k1_p_t9.cnf, 22564.8, 0.562, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 446.613
+		(uts_k2_p_t1.cnf, 278.818, 0.189, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 31.2814
+		(uts_k2_p_t2.cnf, 109.726, 295.832, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 0.00388077
+		(uts_k3_p_t1.cnf, 0.465167, 369.191, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+
+Correctness vs counter MINIC2D with weight format MINIC2D on benchmark family PSEUDOWEIGHTED:
+Number of benchmarks with different model counts: 8
+Model count differences:
+	Base model count: 7.292759177286987e+33
+		(C638_FVK.cnf, 0.0, 2.947, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 2.899088510319715e+17
+		(comm_p02_p_t10.cnf, 0.0, 107.4, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 5.832973600615049e+17
+		(comm_p02_p_t9.cnf, 0.0, 59.996, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 1.1343315103133354e+29
+		(comm_p03_p_t10.cnf, 0.0, 634.908, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 4.225150941509554e+20
+		(comm_p03_p_t6.cnf, 3.53401e+20, 247.476, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 6.717017989450261e+20
+		(comm_p03_p_t8.cnf, 0.0, 356.53, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 3.0478910359042477e+31
+		(comm_p03_p_t9.cnf, 0.0, 544.346, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+	Base model count: 1.784131336062247e+31
+		(comm_p04_p_t5.cnf, 1.56492e+31, 784.402, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+
+Performance summary {benchmark family: PSEUDOWEIGHTED (823), weight format: WEIGHTED}:
+Weight format Counter                          Unique       Fastest   Completions      Rate (%)  Med time (s)
+WEIGHTED      VBS_WEIGHTED                         NA            NA           682         82.87          2.25
+WEIGHTED      VBS_WEIGHTED-no_ADDMC                NA            NA           682         82.87          2.28
+DDNNF         D4                                   10           217           650         78.98          3.37
+CACHET        CACHET                               14           370           607         73.75         11.51
+DDNNF         C2D                                   0            13           597         72.54         42.26
+MINIC2D       MINIC2D                               8            61           503         61.12         44.91
+MINIC2D       ADDMC                                 0            21           322         39.13           inf
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Analyzing all benchmark families
+
+Performance summary {benchmark family: ALTOGETHER (1914), weight format: WEIGHTED}:
+Weight format Counter                          Unique       Fastest   Completions      Rate (%)  Med time (s)
+WEIGHTED      VBS_WEIGHTED                         NA            NA          1771         92.53          0.07
+WEIGHTED      VBS_WEIGHTED-no_ADDMC                NA            NA          1647         86.05          1.24
+DDNNF         D4                                   12           283          1587         82.92          2.10
+DDNNF         C2D                                   0            13          1417         74.03         10.67
+MINIC2D       MINIC2D                               8            61          1407         73.51          7.48
+MINIC2D       ADDMC                               124           763          1404         73.35          0.40
+CACHET        CACHET                               14           651          1383         72.26          4.41

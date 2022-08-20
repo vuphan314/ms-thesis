@@ -1,0 +1,986 @@
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Analyzing benchmark family BAYES with weight format WEIGHTED
+
+ADDMC errors for benchmark family BAYES with weight format MINIC2D: 0
+
+Excluding overflow completions
+
+Float equality tolerance: BIG - SMALL <= 0.001 if SMALL = 0 or BIG <= 1, else BIG / SMALL <= 1.001
+
+Correctness across heuristic configurations: all good
+
+ADDMC experiment result on 1091 benchmarks in family BAYES with weight format WEIGHTED and timeout 10-second:
+Row  Clustering   Cluster var  Inv  Diagram var  Inv         Unique      Fastest  Completions     Rate (%) Med time (s)
+   0 VBS          VBS          VBS  VBS          VBS             NA           NA         1049        96.15         0.01
+   1 BM-Tree      LEXP         0    MCS          0                0            8          992        90.93         0.04
+   2 BM-Tree      LEXP         0    MCS          1                0            1          988        90.56         0.04
+   3 BM-Tree      LEXP         0    RANDOM       0                0            0          975        89.37         0.04
+   4 BM-Tree      LEXP         0    LEXP         0                0            0          975        89.37         0.04
+   5 BM-Tree      LEXP         0    LEXP         1                0            0          971        89.00         0.04
+   6 BE-Tree      LEXP         1    MCS          0                0           18          957        87.72         0.01
+   7 BM-List      LEXP         0    MCS          0                0            0          955        87.53         0.05
+   8 BE-Tree      LEXP         1    MCS          1                0           31          954        87.44         0.01
+   9 BE-Tree      MCS          1    MCS          1                1           48          952        87.26         0.01
+  10 BM-List      LEXP         0    MCS          1                0            0          952        87.26         0.05
+  11 BE-Tree      MCS          1    LEXP         1                0           14          951        87.17         0.01
+  12 BE-Tree      LEXP         1    RANDOM       0                0           14          948        86.89         0.01
+  13 BE-Tree      MCS          1    LEXP         0                0           10          943        86.43         0.01
+  14 BE-Tree      LEXP         1    LEXP         1                0            1          943        86.43         0.01
+  15 BM-List      LEXP         0    RANDOM       0                0            0          940        86.16         0.05
+  16 BM-List      LEXP         0    LEXP         0                0            0          938        85.98         0.05
+  17 BE-Tree      MCS          1    RANDOM       0                0          136          936        85.79         0.01
+  18 BM-List      LEXP         0    LEXP         1                0            0          935        85.70         0.05
+  19 BE-List      LEXP         1    MCS          0                0            0          932        85.43         0.02
+  20 BE-List      LEXP         1    MCS          1                0            1          931        85.33         0.01
+  21 BE-Tree      MCS          1    MCS          0                0           40          924        84.69         0.01
+  22 BE-List      LEXP         1    RANDOM       0                0            2          923        84.60         0.02
+  23 Linear       LEXM         1    MCS          0                0            0          919        84.23         0.06
+  24 Linear       LEXM         0    LEXP         1                0            0          918        84.14         0.06
+  25 Linear       MCS          0    LEXP         1                0            0          918        84.14         0.06
+  26 Linear       LEXM         1    LEXP         1                0            0          917        84.05         0.06
+  27 Linear       LEXP         1    MCS          0                0            0          917        84.05         0.06
+  28 Linear       MCS          0    MCS          0                0            0          917        84.05         0.06
+  29 Linear       MCS          1    MCS          0                0            0          917        84.05         0.07
+  30 Linear       RANDOM       0    MCS          0                0            0          917        84.05         0.07
+  31 BE-Tree      LEXP         1    LEXP         0                0            0          916        83.96         0.01
+  32 BE-List      LEXP         1    LEXP         1                0            0          916        83.96         0.02
+  33 Linear       MCS          1    LEXP         1                0            0          916        83.96         0.06
+  34 Linear       LEXP         1    LEXP         1                0            0          916        83.96         0.06
+  35 Linear       RANDOM       0    LEXP         1                0            0          916        83.96         0.06
+  36 Linear       LEXP         0    LEXP         1                0            0          916        83.96         0.06
+  37 Linear       LEXM         0    MCS          0                0            0          916        83.96         0.07
+  38 Linear       LEXP         1    LEXP         0                0            0          916        83.96         0.07
+  39 Linear       LEXM         1    LEXP         0                0            0          916        83.96         0.07
+  40 Linear       MCS          1    LEXP         0                0            0          916        83.96         0.07
+  41 Linear       RANDOM       0    LEXP         0                0            0          916        83.96         0.07
+  42 Linear       LEXM         0    LEXP         0                0            0          916        83.96         0.07
+  43 Linear       LEXP         0    MCS          0                0            0          915        83.87         0.07
+  44 Linear       LEXP         0    LEXP         0                0            0          915        83.87         0.07
+  45 Linear       MCS          0    LEXP         0                0            0          914        83.78         0.07
+  46 BM-Tree      MCS          0    LEXP         1                0            0          913        83.68         0.05
+  47 Linear       MCS          0    MCS          1                0            0          910        83.41         0.06
+  48 Linear       LEXM         1    MCS          1                0            0          909        83.32         0.06
+  49 Linear       RANDOM       0    MCS          1                0            0          909        83.32         0.06
+  50 Linear       LEXP         0    MCS          1                0            0          909        83.32         0.06
+  51 Linear       LEXP         1    MCS          1                0            0          908        83.23         0.06
+  52 Linear       LEXM         0    MCS          1                0            0          908        83.23         0.06
+  53 Linear       MCS          1    MCS          1                0            0          908        83.23         0.06
+  54 Linear       RANDOM       0    RANDOM       0                0            0          907        83.13         0.07
+  55 BM-Tree      MCS          0    LEXP         0                0            0          906        83.04         0.05
+  56 Linear       MCS          1    RANDOM       0                0            0          906        83.04         0.07
+  57 Linear       LEXP         1    RANDOM       0                0            0          906        83.04         0.07
+  58 Linear       LEXM         0    RANDOM       0                0            0          906        83.04         0.07
+  59 Linear       LEXM         1    RANDOM       0                0            0          906        83.04         0.07
+  60 BM-Tree      MCS          0    MCS          1                0            0          905        82.95         0.04
+  61 BE-List      LEXP         1    LEXP         0                0            0          904        82.86         0.02
+  62 Linear       MCS          0    RANDOM       0                0            0          903        82.77         0.07
+  63 BM-Tree      MCS          0    MCS          0                0            0          901        82.58         0.04
+  64 Linear       LEXP         0    RANDOM       0                0            0          900        82.49         0.07
+  65 BM-Tree      MCS          0    RANDOM       0                0            0          892        81.76         0.04
+  66 BM-List      MCS          0    LEXP         1                0            0          891        81.67         0.05
+  67 BM-List      MCS          0    MCS          1                0            0          885        81.12         0.05
+  68 BM-List      MCS          0    LEXP         0                0            0          882        80.84         0.05
+  69 BM-List      MCS          0    MCS          0                0            0          874        80.11         0.05
+  70 BE-List      MCS          1    MCS          1                0           16          869        79.65         0.01
+  71 BE-Tree      LEXP         1    LEXM         0                0            0          869        79.65         0.31
+  72 BE-Tree      LEXP         1    LEXM         1                0            0          868        79.56         0.31
+  73 BM-List      MCS          0    RANDOM       0                0            0          867        79.47         0.05
+  74 BM-Tree      LEXP         0    LEXM         0                0            0          867        79.47         0.34
+  75 BE-Tree      MCS          1    LEXM         1                0            0          866        79.38         0.31
+  76 BE-Tree      MCS          1    LEXM         0                0            0          866        79.38         0.31
+  77 BM-Tree      LEXP         0    LEXM         1                0            0          866        79.38         0.34
+  78 BE-List      MCS          1    LEXP         1                0            0          865        79.29         0.02
+  79 BM-List      LEXP         0    LEXM         1                0            0          863        79.10         0.34
+  80 BM-List      LEXP         0    LEXM         0                0            0          862        79.01         0.35
+  81 BE-List      LEXP         1    LEXM         1                0            0          861        78.92         0.32
+  82 BE-List      MCS          1    LEXP         0                0            0          860        78.83         0.02
+  83 BE-List      LEXP         1    LEXM         0                0            0          860        78.83         0.32
+  84 BE-List      MCS          1    RANDOM       0                0            4          856        78.46         0.02
+  85 Linear       LEXP         1    LEXM         1                0            0          843        77.27         0.37
+  86 Linear       MCS          1    LEXM         1                0            0          843        77.27         0.37
+  87 Linear       LEXM         0    LEXM         1                0            0          841        77.09         0.36
+  88 Linear       MCS          0    LEXM         1                0            0          841        77.09         0.36
+  89 Linear       RANDOM       0    LEXM         1                0            0          841        77.09         0.37
+  90 Linear       MCS          0    LEXM         0                0            0          841        77.09         0.37
+  91 Linear       LEXP         0    LEXM         1                0            0          841        77.09         0.37
+  92 Linear       LEXM         1    LEXM         1                0            0          840        76.99         0.36
+  93 Linear       LEXM         1    LEXM         0                0            0          840        76.99         0.36
+  94 Linear       LEXP         1    LEXM         0                0            0          840        76.99         0.37
+  95 Linear       LEXP         0    LEXM         0                0            0          840        76.99         0.37
+  96 Linear       RANDOM       0    LEXM         0                0            0          840        76.99         0.37
+  97 Linear       LEXM         0    LEXM         0                0            0          840        76.99         0.37
+  98 Linear       MCS          1    LEXM         0                0            0          839        76.90         0.37
+  99 BM-Tree      MCS          0    LEXM         1                0            0          838        76.81         0.34
+ 100 BE-List      MCS          1    MCS          0                0            1          837        76.72         0.02
+ 101 BM-Tree      MCS          0    LEXM         0                0            0          833        76.35         0.34
+ 102 BM-List      MCS          0    LEXM         1                0            0          826        75.71         0.35
+ 103 BM-List      MCS          0    LEXM         0                0            0          823        75.44         0.35
+ 104 BE-List      MCS          1    LEXM         0                0            0          817        74.89         0.32
+ 105 BE-List      MCS          1    LEXM         1                0            0          812        74.43         0.32
+ 106 BM-List      MCS          1    LEXP         0                0            0          741        67.92         1.40
+ 107 BM-List      MCS          1    LEXP         1                0            0          737        67.55         1.36
+ 108 BM-List      LEXP         1    LEXP         1                0            0          701        64.25         1.79
+ 109 BM-List      LEXP         1    LEXP         0                0            0          700        64.16         1.98
+ 110 BM-Tree      LEXM         0    LEXP         1                0            0          671        61.50         1.09
+ 111 BM-Tree      MCS          1    LEXP         0                0            0          671        61.50         3.26
+ 112 BM-Tree      LEXM         0    LEXP         0                0            0          670        61.41         1.03
+ 113 BM-Tree      RANDOM       0    LEXP         0                0            0          664        60.86         0.53
+ 114 BM-Tree      MCS          1    LEXP         1                0            0          650        59.58         3.69
+ 115 BM-Tree      RANDOM       0    LEXP         1                0            0          648        59.40         0.73
+ 116 BM-Tree      LEXM         1    LEXP         1                0            0          647        59.30         0.47
+ 117 BM-Tree      LEXM         1    LEXP         0                0            0          646        59.21         0.42
+ 118 BM-List      LEXM         1    LEXP         1                0            0          641        58.75         0.80
+ 119 BM-Tree      LEXP         1    LEXP         0                0            0          638        58.48         4.39
+ 120 BM-List      LEXM         1    LEXP         0                0            0          635        58.20         0.82
+ 121 BM-Tree      LEXM         1    LEXM         0                0            0          633        58.02         0.96
+ 122 BM-List      LEXM         0    LEXP         1                0            0          631        57.84         1.14
+ 123 BM-List      LEXM         0    LEXP         0                0            0          630        57.75         1.24
+ 124 BM-Tree      RANDOM       0    LEXM         0                0            0          628        57.56         1.41
+ 125 BM-Tree      LEXP         1    LEXP         1                0            0          628        57.56         4.33
+ 126 BM-Tree      LEXM         1    RANDOM       0                0            0          623        57.10         1.18
+ 127 BM-Tree      LEXM         1    LEXM         1                0            0          623        57.10         1.41
+ 128 BM-Tree      RANDOM       0    LEXM         1                0            0          622        57.01         1.78
+ 129 BM-List      LEXM         1    LEXM         0                0            0          621        56.92         1.26
+ 130 BM-Tree      LEXM         1    MCS          1                0            0          615        56.37         2.31
+ 131 BM-Tree      LEXM         1    MCS          0                0            0          613        56.19         2.65
+ 132 BM-Tree      LEXM         0    RANDOM       0                0            0          601        55.09         2.78
+ 133 BM-Tree      RANDOM       0    RANDOM       0                0            0          597        54.72         3.22
+ 134 BM-List      LEXM         1    LEXM         1                0            0          596        54.63         2.32
+ 135 BM-Tree      LEXM         0    LEXM         1                0            0          592        54.26         4.24
+ 136 BM-List      LEXM         0    LEXM         1                0            0          578        52.98         3.71
+ 137 BM-Tree      LEXM         0    LEXM         0                0            0          578        52.98         4.66
+ 138 BM-Tree      RANDOM       0    MCS          1                0            0          572        52.43         4.43
+ 139 BM-Tree      LEXM         0    MCS          1                0            0          571        52.34         5.84
+ 140 BM-Tree      LEXM         0    MCS          0                0            0          569        52.15         6.29
+ 141 BM-List      LEXM         0    LEXM         0                0            0          558        51.15         6.46
+ 142 BM-List      LEXM         0    RANDOM       0                0            0          557        51.05         7.81
+ 143 BM-List      LEXM         0    MCS          1                0            0          554        50.78         8.76
+ 144 BM-List      LEXP         1    LEXM         1                0            0          554        50.78         9.60
+ 145 BM-Tree      RANDOM       0    MCS          0                0            0          553        50.69         8.08
+ 146 BM-List      LEXP         1    LEXM         0                0            0          553        50.69         9.51
+ 147 BM-List      MCS          1    LEXM         1                0            0          550        50.41         9.38
+ 148 BM-List      MCS          1    LEXM         0                0            0          547        50.14         9.66
+ 149 BM-List      LEXM         1    RANDOM       0                0            0          547        50.14         9.85
+ 150 BM-List      LEXM         0    MCS          0                0            0          544        49.86          inf
+ 151 BM-List      LEXP         1    RANDOM       0                0            0          541        49.59          inf
+ 152 BM-List      MCS          1    RANDOM       0                0            0          533        48.85          inf
+ 153 BM-List      LEXP         1    MCS          0                0            0          526        48.21          inf
+ 154 BM-List      LEXP         1    MCS          1                0            0          520        47.66          inf
+ 155 BM-List      LEXM         1    MCS          1                0            0          520        47.66          inf
+ 156 BM-List      LEXM         1    MCS          0                0            0          504        46.20          inf
+ 157 BM-List      MCS          1    MCS          0                0            0          497        45.55          inf
+ 158 BM-List      RANDOM       0    LEXP         0                0            0          481        44.09          inf
+ 159 BM-List      MCS          1    MCS          1                0            0          475        43.54          inf
+ 160 BM-List      RANDOM       0    LEXP         1                0            0          472        43.26          inf
+ 161 BM-Tree      MCS          1    LEXM         0                0            0          427        39.14          inf
+ 162 BM-Tree      LEXP         1    LEXM         0                0            0          412        37.76          inf
+ 163 BM-Tree      MCS          1    LEXM         1                0            0          407        37.31          inf
+ 164 BM-Tree      MCS          1    RANDOM       0                0            0          400        36.66          inf
+ 165 BM-Tree      LEXP         1    LEXM         1                0            0          400        36.66          inf
+ 166 BM-Tree      LEXP         1    RANDOM       0                0            0          399        36.57          inf
+ 167 BM-List      RANDOM       0    LEXM         0                0            0          396        36.30          inf
+ 168 BM-List      RANDOM       0    LEXM         1                0            0          391        35.84          inf
+ 169 BE-List      LEXP         0    MCS          0                0           21          375        34.37          inf
+ 170 BE-Tree      LEXP         0    MCS          0                3          152          371        34.01          inf
+ 171 BM-Tree      LEXP         1    MCS          1                0            0          344        31.53          inf
+ 172 BM-Tree      LEXP         1    MCS          0                0            0          343        31.44          inf
+ 173 BM-Tree      MCS          1    MCS          0                0            0          336        30.80          inf
+ 174 BE-List      LEXP         0    LEXP         0                0            0          334        30.61          inf
+ 175 BE-List      LEXP         0    LEXP         1                0            0          325        29.79          inf
+ 176 BE-Tree      LEXP         0    LEXP         0                0            0          325        29.79          inf
+ 177 BE-List      LEXP         0    MCS          1                0            0          323        29.61          inf
+ 178 BM-Tree      MCS          1    MCS          1                0            0          322        29.51          inf
+ 179 BE-Tree      LEXP         0    LEXP         1                0            0          322        29.51          inf
+ 180 BE-List      MCS          0    LEXP         1                0            0          319        29.24          inf
+ 181 BM-List      RANDOM       0    RANDOM       0                0            0          317        29.06          inf
+ 182 BE-Tree      LEXP         0    MCS          1                0            5          317        29.06          inf
+ 183 BE-Tree      MCS          0    LEXP         1                0            2          315        28.87          inf
+ 184 BE-Tree      LEXM         1    LEXP         0                0            0          289        26.49          inf
+ 185 BE-List      LEXP         0    RANDOM       0                0            0          282        25.85          inf
+ 186 BM-List      RANDOM       0    MCS          0                0            0          281        25.76          inf
+ 187 BE-Tree      LEXM         1    LEXP         1                0            0          280        25.66          inf
+ 188 BE-List      MCS          0    LEXP         0                0            0          275        25.21          inf
+ 189 BM-List      RANDOM       0    MCS          1                0            0          274        25.11          inf
+ 190 BE-Tree      LEXM         1    LEXM         1                0            0          274        25.11          inf
+ 191 BE-Tree      LEXM         1    MCS          0                0            0          274        25.11          inf
+ 192 BE-Tree      MCS          0    LEXP         0                0            2          273        25.02          inf
+ 193 BE-List      MCS          0    MCS          0                0            1          270        24.75          inf
+ 194 BE-Tree      LEXP         0    RANDOM       0                0            5          270        24.75          inf
+ 195 BE-Tree      LEXM         1    MCS          1                0            0          265        24.29          inf
+ 196 BE-Tree      MCS          0    MCS          0                0           52          265        24.29          inf
+ 197 BE-Tree      LEXM         0    LEXP         0                0            0          262        24.01          inf
+ 198 BE-Tree      LEXM         1    RANDOM       0                0            0          254        23.28          inf
+ 199 BE-Tree      LEXM         1    LEXM         0                0            0          248        22.73          inf
+ 200 BE-Tree      LEXM         0    LEXM         0                0            0          240        22.00          inf
+ 201 BE-Tree      LEXM         0    LEXP         1                0            0          236        21.63          inf
+ 202 BE-Tree      LEXM         0    MCS          0                0            0          231        21.17          inf
+ 203 BE-List      LEXM         1    LEXP         0                0            0          224        20.53          inf
+ 204 BE-List      LEXM         1    LEXP         1                0            0          222        20.35          inf
+ 205 BE-List      MCS          0    MCS          1                0            0          221        20.26          inf
+ 206 BE-Tree      MCS          0    MCS          1                0            2          220        20.16          inf
+ 207 BE-List      LEXM         1    LEXM         1                0            0          219        20.07          inf
+ 208 BE-List      LEXM         1    MCS          0                0            0          205        18.79          inf
+ 209 BE-List      LEXM         1    MCS          1                0            0          203        18.61          inf
+ 210 BE-Tree      LEXM         0    LEXM         1                0            0          198        18.15          inf
+ 211 BE-Tree      MCS          0    RANDOM       0                0            3          196        17.97          inf
+ 212 BE-Tree      LEXM         0    MCS          1                0            0          196        17.97          inf
+ 213 BE-List      MCS          0    RANDOM       0                0            1          195        17.87          inf
+ 214 BE-List      LEXM         1    RANDOM       0                0            0          192        17.60          inf
+ 215 BE-List      LEXM         1    LEXM         0                0            0          191        17.51          inf
+ 216 BE-Tree      LEXM         0    RANDOM       0                0            0          187        17.14          inf
+ 217 BE-List      LEXP         0    LEXM         1                0            0          182        16.68          inf
+ 218 BE-Tree      LEXP         0    LEXM         0                0            0          180        16.50          inf
+ 219 BE-List      LEXP         0    LEXM         0                0            0          178        16.32          inf
+ 220 BE-Tree      LEXP         0    LEXM         1                0            0          178        16.32          inf
+ 221 BE-List      LEXM         0    LEXP         0                0            0          176        16.13          inf
+ 222 BE-List      LEXM         0    LEXP         1                0            0          169        15.49          inf
+ 223 BE-List      LEXM         0    LEXM         0                0            0          169        15.49          inf
+ 224 BE-List      LEXM         0    MCS          0                0            0          157        14.39          inf
+ 225 BE-List      LEXM         0    LEXM         1                0            0          143        13.11          inf
+ 226 BE-List      LEXM         0    RANDOM       0                0            0          140        12.83          inf
+ 227 BE-List      MCS          0    LEXM         0                0            0          137        12.56          inf
+ 228 BE-Tree      MCS          0    LEXM         0                0            0          136        12.47          inf
+ 229 BE-List      LEXM         0    MCS          1                0            0          134        12.28          inf
+ 230 BE-List      MCS          0    LEXM         1                0            0          133        12.19          inf
+ 231 BE-Tree      MCS          0    LEXM         1                0            0          128        11.73          inf
+ 232 Mono         LEXP         1    MCS          0                0            0           71         6.51          inf
+ 233 Mono         LEXM         1    MCS          0                0            0           71         6.51          inf
+ 234 Mono         RANDOM       0    MCS          0                0            0           71         6.51          inf
+ 235 Mono         MCS          1    MCS          0                0            1           71         6.51          inf
+ 236 Mono         MCS          0    MCS          0                0            1           71         6.51          inf
+ 237 Mono         LEXP         0    MCS          0                0            0           71         6.51          inf
+ 238 Mono         LEXM         0    MCS          0                0            0           71         6.51          inf
+ 239 Mono         MCS          1    LEXP         0                0            0           64         5.87          inf
+ 240 Mono         LEXM         0    LEXP         0                0            0           64         5.87          inf
+ 241 Mono         LEXP         1    LEXP         0                0            1           63         5.77          inf
+ 242 Mono         RANDOM       0    LEXP         0                0            0           63         5.77          inf
+ 243 Mono         MCS          0    LEXP         0                0            0           63         5.77          inf
+ 244 Mono         LEXP         0    LEXP         0                0            0           63         5.77          inf
+ 245 Mono         LEXM         1    LEXP         0                0            0           62         5.68          inf
+ 246 Mono         MCS          1    MCS          1                0            0           59         5.41          inf
+ 247 Mono         RANDOM       0    MCS          1                0            0           59         5.41          inf
+ 248 Mono         LEXP         1    MCS          1                0            0           59         5.41          inf
+ 249 Mono         LEXP         0    MCS          1                0            0           59         5.41          inf
+ 250 Mono         LEXM         1    MCS          1                0            0           58         5.32          inf
+ 251 Mono         MCS          0    MCS          1                0            0           58         5.32          inf
+ 252 Mono         LEXM         0    MCS          1                0            0           58         5.32          inf
+ 253 Mono         MCS          1    LEXP         1                0            0           57         5.22          inf
+ 254 Mono         RANDOM       0    LEXP         1                0            0           57         5.22          inf
+ 255 Mono         MCS          0    LEXP         1                0            0           57         5.22          inf
+ 256 Mono         LEXP         0    LEXP         1                0            0           57         5.22          inf
+ 257 Mono         LEXM         0    LEXP         1                0            0           57         5.22          inf
+ 258 Mono         LEXM         1    LEXP         1                0            0           56         5.13          inf
+ 259 Mono         LEXP         1    LEXP         1                0            0           56         5.13          inf
+ 260 BE-Tree      RANDOM       0    LEXP         1                0            0           31         2.84          inf
+ 261 BE-Tree      RANDOM       0    LEXP         0                0            0           27         2.47          inf
+ 262 BE-Tree      RANDOM       0    MCS          0                0            0           24         2.20          inf
+ 263 BE-Tree      RANDOM       0    LEXM         1                0            0           23         2.11          inf
+ 264 BE-Tree      RANDOM       0    RANDOM       0                0            0           23         2.11          inf
+ 265 BE-Tree      RANDOM       0    LEXM         0                0            0           23         2.11          inf
+ 266 BE-Tree      RANDOM       0    MCS          1                0            0           21         1.92          inf
+ 267 BE-List      RANDOM       0    LEXP         1                0            0           19         1.74          inf
+ 268 Mono         LEXP         1    LEXM         0                0            0           19         1.74          inf
+ 269 Mono         LEXM         1    LEXM         0                0            0           19         1.74          inf
+ 270 Mono         RANDOM       0    LEXM         0                0            0           19         1.74          inf
+ 271 Mono         MCS          1    LEXM         0                0            0           19         1.74          inf
+ 272 Mono         MCS          0    LEXM         0                0            0           19         1.74          inf
+ 273 Mono         LEXP         0    LEXM         0                0            0           19         1.74          inf
+ 274 Mono         LEXM         0    LEXM         0                0            0           19         1.74          inf
+ 275 Mono         LEXM         1    LEXM         1                0            0           17         1.56          inf
+ 276 Mono         MCS          1    LEXM         1                0            0           17         1.56          inf
+ 277 Mono         RANDOM       0    LEXM         1                0            0           17         1.56          inf
+ 278 Mono         MCS          0    LEXM         1                0            0           17         1.56          inf
+ 279 Mono         LEXP         1    LEXM         1                0            0           17         1.56          inf
+ 280 Mono         LEXM         0    LEXM         1                0            0           17         1.56          inf
+ 281 Mono         LEXP         0    LEXM         1                0            0           16         1.47          inf
+ 282 BE-List      RANDOM       0    LEXP         0                0            0           12         1.10          inf
+ 283 Mono         RANDOM       0    RANDOM       0                0            0           11         1.01          inf
+ 284 Mono         MCS          1    RANDOM       0                0            0           11         1.01          inf
+ 285 Mono         MCS          0    RANDOM       0                0            0           11         1.01          inf
+ 286 Mono         LEXP         0    RANDOM       0                0            0           11         1.01          inf
+ 287 Mono         LEXM         0    RANDOM       0                0            0           11         1.01          inf
+ 288 Mono         LEXP         1    RANDOM       0                0            0           10         0.92          inf
+ 289 Mono         LEXM         1    RANDOM       0                0            0           10         0.92          inf
+ 290 BE-List      RANDOM       0    MCS          1                0            0            9         0.82          inf
+ 291 BE-List      RANDOM       0    MCS          0                0            0            9         0.82          inf
+ 292 BE-List      RANDOM       0    LEXM         0                0            0            7         0.64          inf
+ 293 BE-List      RANDOM       0    RANDOM       0                0            0            3         0.27          inf
+ 294 BE-List      RANDOM       0    LEXM         1                0            0            1         0.09          inf
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Analyzing benchmark family PSEUDOWEIGHTED with weight format WEIGHTED
+
+ADDMC errors for benchmark family PSEUDOWEIGHTED with weight format MINIC2D: 0
+
+Excluding overflow completions
+
+Float equality tolerance: BIG - SMALL <= 0.001 if SMALL = 0 or BIG <= 1, else BIG / SMALL <= 1.001
+
+Correctness across heuristic configurations:
+Number of benchmarks with different model counts: 2
+	Benchmark with different model counts: 10random.cnf
+		(150017000000.0, ('BOUQUET_LIST', 'MCS', '0', 'RANDOM', '0'))
+		(0.0, ('BOUQUET_TREE', 'MCS', '0', 'MCS', '1'))
+		(0.0, ('BOUQUET_TREE', 'MCS', '0', 'LEXP', '1'))
+		(0.0, ('BOUQUET_TREE', 'MCS', '0', 'LEXM', '1'))
+		(0.0, ('BOUQUET_TREE', 'MCS', '0', 'RANDOM', '0'))
+		(0.0, ('BOUQUET_TREE', 'MCS', '0', 'MCS', '0'))
+		(0.0, ('BOUQUET_TREE', 'MCS', '0', 'LEXP', '0'))
+		(0.0, ('BOUQUET_TREE', 'MCS', '0', 'LEXM', '0'))
+		(0.0, ('MONOLITHIC', 'MCS', '1', 'MCS', '1'))
+		(0.0, ('MONOLITHIC', 'MCS', '1', 'LEXP', '1'))
+		(0.0, ('MONOLITHIC', 'LEXP', '1', 'RANDOM', '0'))
+		(0.0, ('MONOLITHIC', 'LEXP', '1', 'MCS', '0'))
+		(0.0, ('MONOLITHIC', 'LEXP', '1', 'LEXP', '0'))
+		(0.0, ('MONOLITHIC', 'LEXP', '1', 'LEXM', '0'))
+		(0.0, ('MONOLITHIC', 'LEXM', '1', 'MCS', '1'))
+		(0.0, ('MONOLITHIC', 'LEXM', '1', 'LEXP', '1'))
+		(0.0, ('MONOLITHIC', 'LEXM', '1', 'LEXM', '1'))
+		(0.0, ('MONOLITHIC', 'LEXM', '1', 'RANDOM', '0'))
+		(0.0, ('MONOLITHIC', 'LEXM', '1', 'MCS', '0'))
+		(0.0, ('MONOLITHIC', 'LEXM', '1', 'LEXP', '0'))
+		(0.0, ('MONOLITHIC', 'MCS', '1', 'LEXM', '1'))
+		(0.0, ('MONOLITHIC', 'LEXM', '1', 'LEXM', '0'))
+		(0.0, ('MONOLITHIC', 'RANDOM', '0', 'MCS', '1'))
+		(0.0, ('MONOLITHIC', 'RANDOM', '0', 'LEXP', '1'))
+		(0.0, ('MONOLITHIC', 'RANDOM', '0', 'LEXM', '1'))
+		(0.0, ('MONOLITHIC', 'RANDOM', '0', 'RANDOM', '0'))
+		(0.0, ('MONOLITHIC', 'RANDOM', '0', 'MCS', '0'))
+		(0.0, ('MONOLITHIC', 'RANDOM', '0', 'LEXP', '0'))
+		(0.0, ('MONOLITHIC', 'RANDOM', '0', 'LEXM', '0'))
+		(0.0, ('MONOLITHIC', 'MCS', '0', 'MCS', '1'))
+		(0.0, ('MONOLITHIC', 'MCS', '0', 'LEXP', '1'))
+		(0.0, ('MONOLITHIC', 'MCS', '1', 'RANDOM', '0'))
+		(0.0, ('MONOLITHIC', 'MCS', '0', 'LEXM', '1'))
+		(0.0, ('MONOLITHIC', 'MCS', '0', 'RANDOM', '0'))
+		(0.0, ('MONOLITHIC', 'MCS', '0', 'MCS', '0'))
+		(0.0, ('MONOLITHIC', 'MCS', '0', 'LEXP', '0'))
+		(0.0, ('MONOLITHIC', 'MCS', '0', 'LEXM', '0'))
+		(0.0, ('MONOLITHIC', 'LEXP', '0', 'MCS', '1'))
+		(0.0, ('MONOLITHIC', 'LEXP', '0', 'LEXP', '1'))
+		(0.0, ('MONOLITHIC', 'LEXP', '0', 'LEXM', '1'))
+		(0.0, ('MONOLITHIC', 'LEXP', '0', 'RANDOM', '0'))
+		(0.0, ('MONOLITHIC', 'LEXP', '0', 'MCS', '0'))
+		(0.0, ('MONOLITHIC', 'MCS', '1', 'MCS', '0'))
+		(0.0, ('MONOLITHIC', 'LEXP', '0', 'LEXP', '0'))
+		(0.0, ('MONOLITHIC', 'LEXP', '0', 'LEXM', '0'))
+		(0.0, ('MONOLITHIC', 'LEXM', '0', 'MCS', '1'))
+		(0.0, ('MONOLITHIC', 'LEXM', '0', 'LEXP', '1'))
+		(0.0, ('MONOLITHIC', 'LEXM', '0', 'LEXM', '1'))
+		(0.0, ('MONOLITHIC', 'LEXM', '0', 'RANDOM', '0'))
+		(0.0, ('MONOLITHIC', 'LEXM', '0', 'MCS', '0'))
+		(0.0, ('MONOLITHIC', 'LEXM', '0', 'LEXP', '0'))
+		(0.0, ('MONOLITHIC', 'LEXM', '0', 'LEXM', '0'))
+		(0.0, ('MONOLITHIC', 'MCS', '1', 'LEXP', '0'))
+		(0.0, ('MONOLITHIC', 'MCS', '1', 'LEXM', '0'))
+		(0.0, ('MONOLITHIC', 'LEXP', '1', 'MCS', '1'))
+		(0.0, ('MONOLITHIC', 'LEXP', '1', 'LEXP', '1'))
+		(0.0, ('MONOLITHIC', 'LEXP', '1', 'LEXM', '1'))
+	Benchmark with different model counts: C638_FVK.cnf
+		(0.0, ('BOUQUET_LIST', 'MCS', '1', 'MCS', '1'))
+		(7.29276e+33, ('BOUQUET_TREE', 'LEXP', '1', 'LEXP', '1'))
+		(7.29276e+33, ('BOUQUET_TREE', 'LEXP', '1', 'MCS', '0'))
+		(7.29276e+33, ('BOUQUET_TREE', 'LEXP', '1', 'LEXP', '0'))
+
+ADDMC experiment result on 823 benchmarks in family PSEUDOWEIGHTED with weight format WEIGHTED and timeout 10-second:
+Row  Clustering   Cluster var  Inv  Diagram var  Inv         Unique      Fastest  Completions     Rate (%) Med time (s)
+   0 VBS          VBS          VBS  VBS          VBS             NA           NA          352        42.77          inf
+   1 BM-List      LEXP         0    LEXP         1                0            5          253        30.74          inf
+   2 BE-List      LEXP         1    MCS          0                0            1          246        29.89          inf
+   3 BM-List      LEXP         0    MCS          1                0            2          245        29.77          inf
+   4 BM-List      LEXP         0    MCS          0                3           12          245        29.77          inf
+   5 BE-Tree      LEXP         1    MCS          0                0           31          243        29.53          inf
+   6 BE-Tree      LEXP         1    MCS          1                0           14          236        28.68          inf
+   7 BM-List      LEXP         0    RANDOM       0                0            0          233        28.31          inf
+   8 BE-Tree      LEXP         1    LEXP         0                0            0          233        28.31          inf
+   9 BM-List      LEXP         0    LEXP         0                0            0          232        28.19          inf
+  10 BE-Tree      LEXP         1    LEXP         1                0            5          232        28.19          inf
+  11 BE-List      LEXP         1    MCS          1                0            7          231        28.07          inf
+  12 BE-List      LEXP         1    LEXP         0                0            0          231        28.07          inf
+  13 BE-Tree      MCS          1    LEXP         1                0           17          231        28.07          inf
+  14 BE-Tree      MCS          1    LEXP         0                0            6          231        28.07          inf
+  15 BE-List      LEXP         1    LEXP         1                0            4          229        27.83          inf
+  16 BE-List      LEXP         1    RANDOM       0                0            7          229        27.83          inf
+  17 BE-Tree      MCS          1    MCS          1                0           26          229        27.83          inf
+  18 BE-Tree      LEXP         1    RANDOM       0                0            8          229        27.83          inf
+  19 BE-Tree      MCS          1    MCS          0                0            0          225        27.34          inf
+  20 BE-Tree      MCS          1    RANDOM       0                0           17          219        26.61          inf
+  21 BM-Tree      LEXP         0    LEXP         1                0            0          218        26.49          inf
+  22 BM-List      LEXP         1    MCS          0                0            0          215        26.12          inf
+  23 BM-List      MCS          0    MCS          1                5            9          212        25.76          inf
+  24 BM-List      LEXP         1    LEXP         0                0            1          211        25.64          inf
+  25 BM-Tree      LEXP         0    MCS          1                0            0          211        25.64          inf
+  26 BM-Tree      LEXP         0    LEXP         0                0            0          211        25.64          inf
+  27 BM-Tree      LEXP         0    MCS          0                0            2          210        25.52          inf
+  28 BM-List      MCS          1    LEXP         1                2            2          208        25.27          inf
+  29 BM-List      MCS          0    LEXP         1                0            1          207        25.15          inf
+  30 BM-List      MCS          0    MCS          0                0            2          205        24.91          inf
+  31 BM-List      MCS          1    LEXP         0                0            0          204        24.79          inf
+  32 BM-List      LEXP         1    MCS          1                0            0          204        24.79          inf
+  33 BM-List      MCS          0    LEXP         0                1            2          204        24.79          inf
+  34 BM-Tree      LEXP         0    RANDOM       0                0            0          201        24.42          inf
+  35 BM-List      LEXP         1    LEXP         1                0            0          199        24.18          inf
+  36 BM-Tree      MCS          1    LEXP         1                1            1          195        23.69          inf
+  37 BM-List      MCS          1    MCS          0                0            1          194        23.57          inf
+  38 BM-Tree      MCS          0    MCS          1                0            8          194        23.57          inf
+  39 BM-Tree      MCS          0    LEXP         1                0            1          193        23.45          inf
+  40 BM-Tree      MCS          1    LEXP         0                0            0          191        23.21          inf
+  41 BM-List      LEXP         1    RANDOM       0                0            0          190        23.09          inf
+  42 BM-Tree      LEXP         1    LEXP         1                0            0          190        23.09          inf
+  43 BM-Tree      MCS          0    MCS          0                0            1          189        22.96          inf
+  44 BM-Tree      MCS          0    LEXP         0                0            1          188        22.84          inf
+  45 BM-Tree      MCS          1    MCS          0                0            0          187        22.72          inf
+  46 BE-List      MCS          1    LEXP         0                0            0          187        22.72          inf
+  47 BM-Tree      LEXP         1    LEXP         0                0            0          185        22.48          inf
+  48 BE-List      MCS          1    MCS          1                0           11          185        22.48          inf
+  49 BE-List      MCS          1    LEXP         1                0            0          185        22.48          inf
+  50 BM-Tree      LEXP         1    MCS          0                0            0          184        22.36          inf
+  51 BM-List      MCS          0    RANDOM       0                0            1          183        22.24          inf
+  52 BM-Tree      LEXP         1    RANDOM       0                0            0          182        22.11          inf
+  53 BM-Tree      MCS          1    MCS          1                0            0          181        21.99          inf
+  54 BM-Tree      MCS          1    RANDOM       0                0            0          181        21.99          inf
+  55 BE-List      MCS          1    MCS          0                0            0          180        21.87          inf
+  56 BM-List      MCS          1    MCS          1                0            0          179        21.75          inf
+  57 BM-List      LEXP         0    LEXM         0                0            0          179        21.75          inf
+  58 BM-Tree      LEXP         1    MCS          1                0            0          179        21.75          inf
+  59 BM-Tree      MCS          0    RANDOM       0                0            0          179        21.75          inf
+  60 BE-Tree      LEXP         1    LEXM         0                0            0          179        21.75          inf
+  61 BE-List      LEXP         0    MCS          0                0            1          176        21.39          inf
+  62 BE-Tree      MCS          1    LEXM         0                0            0          176        21.39          inf
+  63 BE-Tree      LEXP         1    LEXM         1                0            0          176        21.39          inf
+  64 BE-Tree      MCS          1    LEXM         1                0            0          175        21.26          inf
+  65 BM-List      LEXP         0    LEXM         1                0            0          174        21.14          inf
+  66 BM-Tree      LEXP         0    LEXM         0                0            0          170        20.66          inf
+  67 BE-List      LEXP         0    LEXP         0                0            0          170        20.66          inf
+  68 BM-Tree      LEXP         0    LEXM         1                0            0          168        20.41          inf
+  69 BE-List      MCS          1    RANDOM       0                0           30          168        20.41          inf
+  70 BM-List      MCS          1    RANDOM       0                0            0          164        19.93          inf
+  71 BM-Tree      LEXM         1    LEXP         0                0            1          156        18.96          inf
+  72 BM-List      MCS          0    LEXM         0                0            0          155        18.83          inf
+  73 BE-Tree      LEXP         0    MCS          0                0            0          155        18.83          inf
+  74 BM-Tree      MCS          1    LEXM         1                0            0          154        18.71          inf
+  75 BE-List      LEXP         0    LEXP         1                0            0          153        18.59          inf
+  76 BM-Tree      LEXM         1    MCS          0                0            0          152        18.47          inf
+  77 BM-List      MCS          0    LEXM         1                0            0          150        18.23          inf
+  78 BM-Tree      LEXM         1    LEXP         1                0            1          150        18.23          inf
+  79 BM-Tree      RANDOM       0    LEXP         1                0            0          150        18.23          inf
+  80 BM-Tree      MCS          0    LEXM         1                0            0          150        18.23          inf
+  81 BM-Tree      MCS          0    LEXM         0                0            0          150        18.23          inf
+  82 BE-List      MCS          0    LEXP         1                0            0          150        18.23          inf
+  83 BE-List      MCS          0    MCS          0                0           12          150        18.23          inf
+  84 BM-Tree      MCS          1    LEXM         0                0            0          149        18.10          inf
+  85 BM-Tree      LEXP         1    LEXM         1                0            0          149        18.10          inf
+  86 BM-Tree      LEXP         1    LEXM         0                0            0          149        18.10          inf
+  87 BE-List      LEXP         1    LEXM         1                0            0          148        17.98          inf
+  88 BM-Tree      RANDOM       0    LEXP         0                0            1          147        17.86          inf
+  89 BE-List      MCS          0    LEXP         0                0            1          147        17.86          inf
+  90 BE-List      LEXP         0    MCS          1                0            0          147        17.86          inf
+  91 BE-List      LEXP         1    LEXM         0                0            0          146        17.74          inf
+  92 BE-Tree      LEXP         0    LEXP         0                0            1          146        17.74          inf
+  93 BM-Tree      RANDOM       0    MCS          0                0            0          145        17.62          inf
+  94 BM-List      LEXP         1    LEXM         0                0            0          143        17.38          inf
+  95 BM-List      LEXP         1    LEXM         1                0            0          142        17.25          inf
+  96 BM-Tree      LEXM         1    MCS          1                0            0          142        17.25          inf
+  97 BM-Tree      LEXM         0    LEXP         1                0            0          141        17.13          inf
+  98 BM-Tree      LEXM         0    LEXP         0                0            0          141        17.13          inf
+  99 BE-Tree      LEXP         0    LEXP         1                0            0          140        17.01          inf
+ 100 BM-Tree      RANDOM       0    MCS          1                0            0          139        16.89          inf
+ 101 BM-Tree      LEXM         0    MCS          0                0            0          139        16.89          inf
+ 102 BE-List      LEXP         0    RANDOM       0                0            0          138        16.77          inf
+ 103 BE-List      MCS          0    MCS          1                0            0          137        16.65          inf
+ 104 BM-Tree      RANDOM       0    RANDOM       0                0            0          136        16.52          inf
+ 105 BM-Tree      LEXM         0    MCS          1                0            0          136        16.52          inf
+ 106 BE-Tree      MCS          0    LEXP         1                0            0          136        16.52          inf
+ 107 BE-Tree      MCS          0    LEXP         0                0            0          134        16.28          inf
+ 108 BM-Tree      LEXM         1    RANDOM       0                0            0          132        16.04          inf
+ 109 BM-Tree      LEXM         0    RANDOM       0                0            0          132        16.04          inf
+ 110 BE-Tree      MCS          0    MCS          0                0            0          132        16.04          inf
+ 111 BE-Tree      LEXP         0    MCS          1                0            0          132        16.04          inf
+ 112 BM-List      LEXM         1    LEXP         0                0            0          131        15.92          inf
+ 113 BM-List      LEXM         1    MCS          0                1            1          130        15.80          inf
+ 114 BM-Tree      LEXM         1    LEXM         0                0            0          129        15.67          inf
+ 115 BM-Tree      LEXM         0    LEXM         1                0            0          128        15.55          inf
+ 116 BE-List      MCS          0    RANDOM       0                0            0          127        15.43          inf
+ 117 BM-List      MCS          1    LEXM         1                0            0          125        15.19          inf
+ 118 BM-List      MCS          1    LEXM         0                0            0          125        15.19          inf
+ 119 Mono         LEXP         1    LEXP         0                0            0          124        15.07          inf
+ 120 Mono         LEXM         1    LEXP         0                0            0          124        15.07          inf
+ 121 Mono         RANDOM       0    LEXP         0                0            0          124        15.07          inf
+ 122 Mono         MCS          1    LEXP         0                0            0          124        15.07          inf
+ 123 Mono         LEXP         0    LEXP         0                0            0          124        15.07          inf
+ 124 BM-Tree      LEXM         1    LEXM         1                0            0          123        14.95          inf
+ 125 Mono         MCS          0    LEXP         0                0            0          123        14.95          inf
+ 126 Mono         LEXM         0    LEXP         0                0            0          123        14.95          inf
+ 127 BM-List      RANDOM       0    LEXP         0                0            0          122        14.82          inf
+ 128 BE-List      LEXP         0    LEXM         1                0            0          122        14.82          inf
+ 129 BM-List      LEXM         1    LEXP         1                0            0          121        14.70          inf
+ 130 BM-List      LEXM         0    LEXP         0                0            0          121        14.70          inf
+ 131 BE-List      LEXP         0    LEXM         0                0            0          121        14.70          inf
+ 132 BE-Tree      LEXP         0    RANDOM       0                0            0          121        14.70          inf
+ 133 Mono         MCS          1    LEXP         1                0            0          121        14.70          inf
+ 134 Mono         LEXM         1    LEXP         1                0            0          121        14.70          inf
+ 135 Mono         RANDOM       0    LEXP         1                0            0          121        14.70          inf
+ 136 Mono         LEXP         1    LEXP         1                0            0          121        14.70          inf
+ 137 Mono         LEXP         0    LEXP         1                0            0          121        14.70          inf
+ 138 Mono         LEXM         0    LEXP         1                0            0          121        14.70          inf
+ 139 Mono         MCS          0    LEXP         1                0            0          120        14.58          inf
+ 140 BE-Tree      MCS          0    MCS          1                0            0          119        14.46          inf
+ 141 BM-List      RANDOM       0    LEXP         1                0            0          118        14.34          inf
+ 142 BM-List      LEXM         0    LEXP         1                0            0          118        14.34          inf
+ 143 Linear       MCS          1    MCS          0                0            0          118        14.34          inf
+ 144 Linear       LEXP         1    MCS          0                0            0          118        14.34          inf
+ 145 Linear       LEXM         1    MCS          0                0            0          118        14.34          inf
+ 146 Linear       RANDOM       0    MCS          0                0            0          118        14.34          inf
+ 147 Linear       MCS          0    MCS          0                0            0          118        14.34          inf
+ 148 Linear       LEXP         0    MCS          0                0            0          118        14.34          inf
+ 149 Linear       LEXM         0    MCS          0                0            0          118        14.34          inf
+ 150 BM-Tree      LEXM         0    LEXM         0                0            0          117        14.22          inf
+ 151 Linear       MCS          1    LEXP         0                0            0          117        14.22          inf
+ 152 Linear       LEXP         1    LEXP         0                0            0          117        14.22          inf
+ 153 Linear       LEXM         1    LEXP         0                0            0          117        14.22          inf
+ 154 Linear       RANDOM       0    LEXP         0                0            0          117        14.22          inf
+ 155 Linear       MCS          0    LEXP         0                0            0          117        14.22          inf
+ 156 Linear       LEXP         0    LEXP         0                0            0          117        14.22          inf
+ 157 Linear       LEXM         0    LEXP         0                0            0          117        14.22          inf
+ 158 Linear       MCS          1    LEXP         1                0            0          116        14.09          inf
+ 159 Linear       LEXP         1    LEXP         1                0            0          116        14.09          inf
+ 160 Linear       LEXM         1    LEXP         1                0            0          116        14.09          inf
+ 161 Linear       RANDOM       0    LEXP         1                0            0          116        14.09          inf
+ 162 Linear       MCS          0    LEXP         1                0            0          116        14.09          inf
+ 163 Linear       LEXP         0    LEXP         1                0            0          116        14.09          inf
+ 164 Linear       LEXM         0    LEXP         1                0            0          116        14.09          inf
+ 165 Mono         LEXP         1    MCS          0                0            0          116        14.09          inf
+ 166 Mono         LEXM         1    MCS          0                0            0          116        14.09          inf
+ 167 Mono         RANDOM       0    MCS          0                0            1          116        14.09          inf
+ 168 Mono         MCS          1    MCS          0                0            0          116        14.09          inf
+ 169 Mono         MCS          0    MCS          0                0            0          116        14.09          inf
+ 170 Mono         LEXM         0    MCS          0                0            1          116        14.09          inf
+ 171 BM-List      RANDOM       0    MCS          0                0            0          115        13.97          inf
+ 172 Mono         LEXP         0    MCS          0                0            2          114        13.85          inf
+ 173 BM-List      LEXM         0    MCS          0                0            0          113        13.73          inf
+ 174 BM-Tree      RANDOM       0    LEXM         1                0            0          113        13.73          inf
+ 175 BE-Tree      RANDOM       0    LEXP         0                0            1          113        13.73          inf
+ 176 BM-List      LEXM         1    MCS          1                0            0          112        13.61          inf
+ 177 BE-Tree      RANDOM       0    MCS          0                0            0          112        13.61          inf
+ 178 BE-Tree      MCS          0    RANDOM       0                0            1          112        13.61          inf
+ 179 BM-Tree      RANDOM       0    LEXM         0                0            0          111        13.49          inf
+ 180 BE-List      MCS          1    LEXM         1                0            1          111        13.49          inf
+ 181 BE-List      MCS          1    LEXM         0                0            0          111        13.49          inf
+ 182 BE-Tree      LEXP         0    LEXM         1                0            0          111        13.49          inf
+ 183 BE-Tree      LEXP         0    LEXM         0                0            0          111        13.49          inf
+ 184 BE-List      MCS          0    LEXM         1                0            0          110        13.37          inf
+ 185 Linear       LEXM         1    MCS          1                0            0          110        13.37          inf
+ 186 Linear       RANDOM       0    MCS          1                0            0          110        13.37          inf
+ 187 Linear       LEXP         0    MCS          1                0            0          110        13.37          inf
+ 188 BE-Tree      LEXM         0    LEXP         0                0            0          109        13.24          inf
+ 189 Linear       MCS          1    MCS          1                0            0          109        13.24          inf
+ 190 Linear       LEXP         1    MCS          1                0            0          109        13.24          inf
+ 191 Linear       MCS          0    MCS          1                0            0          109        13.24          inf
+ 192 Linear       LEXM         0    MCS          1                0            0          109        13.24          inf
+ 193 BM-List      LEXM         0    MCS          1                0            0          108        13.12          inf
+ 194 BE-Tree      LEXM         1    LEXP         1                0            0          108        13.12          inf
+ 195 BE-Tree      LEXM         1    LEXP         0                0            0          108        13.12          inf
+ 196 BM-List      RANDOM       0    MCS          1                0            0          107        13.00          inf
+ 197 BE-List      MCS          0    LEXM         0                0            0          107        13.00          inf
+ 198 BE-Tree      LEXM         0    MCS          0                0            1          107        13.00          inf
+ 199 Mono         RANDOM       0    MCS          1                0            0          107        13.00          inf
+ 200 Mono         LEXP         1    MCS          1                0            0          107        13.00          inf
+ 201 Mono         MCS          0    MCS          1                0            0          106        12.88          inf
+ 202 Mono         LEXP         0    MCS          1                0            0          106        12.88          inf
+ 203 BE-Tree      RANDOM       0    MCS          1                0            0          105        12.76          inf
+ 204 BE-Tree      LEXM         0    LEXP         1                0            0          105        12.76          inf
+ 205 Mono         MCS          1    MCS          1                0            0          105        12.76          inf
+ 206 Mono         LEXM         0    MCS          1                0            0          105        12.76          inf
+ 207 BE-Tree      RANDOM       0    LEXP         1                0            0          104        12.64          inf
+ 208 BE-Tree      MCS          0    LEXM         1                0            0          104        12.64          inf
+ 209 BM-List      LEXM         1    LEXM         0                0            0          103        12.52          inf
+ 210 Mono         LEXM         1    MCS          1                0            0          103        12.52          inf
+ 211 BE-Tree      MCS          0    LEXM         0                0            0          102        12.39          inf
+ 212 BE-Tree      LEXM         1    MCS          0                0            0          101        12.27          inf
+ 213 BE-Tree      LEXM         1    MCS          1                0            0          100        12.15          inf
+ 214 BE-Tree      RANDOM       0    RANDOM       0                0            0          100        12.15          inf
+ 215 BE-Tree      LEXM         0    MCS          1                0            0          100        12.15          inf
+ 216 BM-List      LEXM         1    RANDOM       0                0            0           97        11.79          inf
+ 217 BE-Tree      LEXM         1    LEXM         1                0            0           97        11.79          inf
+ 218 BM-List      LEXM         1    LEXM         1                0            0           95        11.54          inf
+ 219 BE-Tree      LEXM         0    LEXM         0                0            0           95        11.54          inf
+ 220 Linear       MCS          0    RANDOM       0                0            0           91        11.06          inf
+ 221 Linear       MCS          1    RANDOM       0                0            0           90        10.94          inf
+ 222 Linear       LEXP         1    RANDOM       0                0            0           90        10.94          inf
+ 223 Linear       LEXM         1    RANDOM       0                0            0           90        10.94          inf
+ 224 Linear       RANDOM       0    RANDOM       0                0            0           90        10.94          inf
+ 225 BM-List      RANDOM       0    RANDOM       0                0            0           89        10.81          inf
+ 226 BE-Tree      LEXM         0    RANDOM       0                0            0           89        10.81          inf
+ 227 Linear       LEXP         0    RANDOM       0                0            0           89        10.81          inf
+ 228 Linear       LEXM         0    RANDOM       0                0            0           89        10.81          inf
+ 229 BE-Tree      LEXM         0    LEXM         1                0            0           88        10.69          inf
+ 230 BM-List      LEXM         0    RANDOM       0                0            0           85        10.33          inf
+ 231 BE-Tree      RANDOM       0    LEXM         1                0            0           85        10.33          inf
+ 232 BM-List      LEXM         0    LEXM         1                0            0           84        10.21          inf
+ 233 BE-Tree      LEXM         1    RANDOM       0                0            0           84        10.21          inf
+ 234 BE-Tree      LEXM         1    LEXM         0                0            0           84        10.21          inf
+ 235 BM-List      LEXM         0    LEXM         0                0            0           82         9.96          inf
+ 236 BE-Tree      RANDOM       0    LEXM         0                0            0           82         9.96          inf
+ 237 Mono         LEXP         1    LEXM         0                0            0           77         9.36          inf
+ 238 Mono         LEXM         1    LEXM         0                0            0           77         9.36          inf
+ 239 Mono         RANDOM       0    LEXM         0                0            0           77         9.36          inf
+ 240 Mono         MCS          1    LEXM         0                0            0           77         9.36          inf
+ 241 Mono         LEXP         0    LEXM         0                0            0           77         9.36          inf
+ 242 Mono         LEXM         0    LEXM         0                0            0           77         9.36          inf
+ 243 Mono         MCS          0    LEXM         0                0            0           76         9.23          inf
+ 244 Mono         LEXM         1    LEXM         1                0            0           75         9.11          inf
+ 245 Mono         MCS          1    LEXM         1                0            0           75         9.11          inf
+ 246 Mono         RANDOM       0    LEXM         1                0            0           75         9.11          inf
+ 247 Mono         LEXP         1    LEXM         1                0            0           75         9.11          inf
+ 248 Mono         LEXM         0    LEXM         1                0            0           75         9.11          inf
+ 249 Mono         MCS          0    LEXM         1                0            0           74         8.99          inf
+ 250 Mono         LEXP         0    LEXM         1                0            0           74         8.99          inf
+ 251 BE-List      LEXM         1    LEXP         1                0            0           73         8.87          inf
+ 252 BE-List      LEXM         1    MCS          0                0            0           73         8.87          inf
+ 253 BE-List      LEXM         1    LEXP         0                0            0           72         8.75          inf
+ 254 BE-List      RANDOM       0    LEXP         0                0            0           71         8.63          inf
+ 255 BE-List      LEXM         0    MCS          0                0            0           71         8.63          inf
+ 256 BE-List      LEXM         0    LEXP         0                0            0           71         8.63          inf
+ 257 BE-List      LEXM         0    MCS          1                0            0           70         8.51          inf
+ 258 BE-List      LEXM         0    LEXP         1                0            0           70         8.51          inf
+ 259 BE-List      LEXM         1    MCS          1                0            0           69         8.38          inf
+ 260 BM-List      RANDOM       0    LEXM         0                0            0           67         8.14          inf
+ 261 BM-List      RANDOM       0    LEXM         1                0            0           66         8.02          inf
+ 262 BE-List      LEXM         1    LEXM         1                0            0           65         7.90          inf
+ 263 BE-List      RANDOM       0    LEXP         1                0            0           65         7.90          inf
+ 264 BE-List      RANDOM       0    MCS          0                0            0           65         7.90          inf
+ 265 BE-List      LEXM         0    LEXM         0                0            0           64         7.78          inf
+ 266 Mono         LEXP         1    RANDOM       0                0            0           64         7.78          inf
+ 267 Mono         LEXM         1    RANDOM       0                0            0           64         7.78          inf
+ 268 Mono         MCS          1    RANDOM       0                0            0           63         7.65          inf
+ 269 Mono         LEXP         0    RANDOM       0                0            0           63         7.65          inf
+ 270 Mono         MCS          0    RANDOM       0                0            0           62         7.53          inf
+ 271 Mono         LEXM         0    RANDOM       0                0            0           62         7.53          inf
+ 272 BE-List      RANDOM       0    MCS          1                0            0           61         7.41          inf
+ 273 Mono         RANDOM       0    RANDOM       0                0            0           61         7.41          inf
+ 274 Linear       MCS          1    LEXM         0                0            0           60         7.29          inf
+ 275 Linear       LEXP         1    LEXM         0                0            0           60         7.29          inf
+ 276 Linear       LEXM         1    LEXM         0                0            0           60         7.29          inf
+ 277 Linear       RANDOM       0    LEXM         0                0            0           60         7.29          inf
+ 278 Linear       MCS          0    LEXM         0                0            0           60         7.29          inf
+ 279 Linear       LEXP         0    LEXM         0                0            0           60         7.29          inf
+ 280 Linear       LEXM         0    LEXM         0                0            0           60         7.29          inf
+ 281 Linear       MCS          1    LEXM         1                0            0           59         7.17          inf
+ 282 Linear       LEXP         1    LEXM         1                0            0           59         7.17          inf
+ 283 Linear       LEXM         1    LEXM         1                0            0           59         7.17          inf
+ 284 Linear       RANDOM       0    LEXM         1                0            0           59         7.17          inf
+ 285 Linear       MCS          0    LEXM         1                0            0           59         7.17          inf
+ 286 Linear       LEXP         0    LEXM         1                0            0           59         7.17          inf
+ 287 Linear       LEXM         0    LEXM         1                0            0           59         7.17          inf
+ 288 BE-List      LEXM         0    RANDOM       0                0            0           57         6.93          inf
+ 289 BE-List      LEXM         0    LEXM         1                0            0           56         6.80          inf
+ 290 BE-List      LEXM         1    LEXM         0                0            0           53         6.44          inf
+ 291 BE-List      RANDOM       0    LEXM         1                0            0           52         6.32          inf
+ 292 BE-List      RANDOM       0    LEXM         0                0            0           52         6.32          inf
+ 293 BE-List      LEXM         1    RANDOM       0                0            0           51         6.20          inf
+ 294 BE-List      RANDOM       0    RANDOM       0                0            0           50         6.08          inf
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Analyzing all benchmark families
+
+ADDMC experiment result on 1914 benchmarks in family ALTOGETHER with weight format WEIGHTED and timeout 10-second:
+Row  Clustering   Cluster var  Inv  Diagram var  Inv         Unique      Fastest  Completions     Rate (%) Med time (s)
+   0 VBS          VBS          VBS  VBS          VBS             NA           NA         1401        73.20         0.11
+   1 BM-Tree      LEXP         0    MCS          0                0           10         1202        62.80         0.41
+   2 BE-Tree      LEXP         1    MCS          0                0           49         1200        62.70         0.21
+   3 BM-List      LEXP         0    MCS          0                3           12         1200        62.70         0.50
+   4 BM-Tree      LEXP         0    MCS          1                0            1         1199        62.64         0.45
+   5 BM-List      LEXP         0    MCS          1                0            2         1197        62.54         0.49
+   6 BE-Tree      LEXP         1    MCS          1                0           45         1190        62.17         0.22
+   7 BM-Tree      LEXP         0    LEXP         1                0            0         1189        62.12         0.46
+   8 BM-List      LEXP         0    LEXP         1                0            5         1188        62.07         0.59
+   9 BM-Tree      LEXP         0    LEXP         0                0            0         1186        61.96         0.51
+  10 BE-Tree      MCS          1    LEXP         1                0           31         1182        61.76         0.23
+  11 BE-Tree      MCS          1    MCS          1                1           74         1181        61.70         0.21
+  12 BE-List      LEXP         1    MCS          0                0            1         1178        61.55         0.45
+  13 BE-Tree      LEXP         1    RANDOM       0                0           22         1177        61.49         0.23
+  14 BM-Tree      LEXP         0    RANDOM       0                0            0         1176        61.44         0.50
+  15 BE-Tree      LEXP         1    LEXP         1                0            6         1175        61.39         0.26
+  16 BE-Tree      MCS          1    LEXP         0                0           16         1174        61.34         0.25
+  17 BM-List      LEXP         0    RANDOM       0                0            0         1173        61.29         0.62
+  18 BM-List      LEXP         0    LEXP         0                0            0         1170        61.13         0.66
+  19 BE-List      LEXP         1    MCS          1                0            8         1162        60.71         0.48
+  20 BE-Tree      MCS          1    RANDOM       0                0          153         1155        60.34         0.28
+  21 BE-List      LEXP         1    RANDOM       0                0            9         1152        60.19         0.54
+  22 BE-Tree      LEXP         1    LEXP         0                0            0         1149        60.03         0.32
+  23 BE-Tree      MCS          1    MCS          0                0           40         1149        60.03         0.35
+  24 BE-List      LEXP         1    LEXP         1                0            4         1145        59.82         0.62
+  25 BE-List      LEXP         1    LEXP         0                0            0         1135        59.30         0.74
+  26 BM-Tree      MCS          0    LEXP         1                0            1         1106        57.78         0.74
+  27 BM-Tree      MCS          0    MCS          1                0            8         1099        57.42         0.74
+  28 BM-List      MCS          0    LEXP         1                0            1         1098        57.37         0.97
+  29 BM-List      MCS          0    MCS          1                5            9         1097        57.31         1.02
+  30 BM-Tree      MCS          0    LEXP         0                0            1         1094        57.16         0.80
+  31 BM-Tree      MCS          0    MCS          0                0            1         1090        56.95         0.87
+  32 BM-List      MCS          0    LEXP         0                1            2         1086        56.74         1.08
+  33 BM-List      MCS          0    MCS          0                0            2         1079        56.37         1.22
+  34 BM-Tree      MCS          0    RANDOM       0                0            0         1071        55.96         0.98
+  35 BE-List      MCS          1    MCS          1                0           27         1054        55.07         0.89
+  36 BE-List      MCS          1    LEXP         1                0            0         1050        54.86         1.06
+  37 BM-List      MCS          0    RANDOM       0                0            1         1050        54.86         1.78
+  38 BE-Tree      LEXP         1    LEXM         0                0            0         1048        54.75         4.26
+  39 BE-List      MCS          1    LEXP         0                0            0         1047        54.70         1.05
+  40 BE-Tree      LEXP         1    LEXM         1                0            0         1044        54.55         4.21
+  41 BE-Tree      MCS          1    LEXM         0                0            0         1042        54.44         4.36
+  42 BM-List      LEXP         0    LEXM         0                0            0         1041        54.39         4.36
+  43 BE-Tree      MCS          1    LEXM         1                0            0         1041        54.39         4.43
+  44 Linear       LEXM         1    MCS          0                0            0         1037        54.18         2.54
+  45 BM-List      LEXP         0    LEXM         1                0            0         1037        54.18         4.63
+  46 BM-Tree      LEXP         0    LEXM         0                0            0         1037        54.18         4.96
+  47 Linear       RANDOM       0    MCS          0                0            0         1035        54.08         2.50
+  48 Linear       MCS          0    MCS          0                0            0         1035        54.08         2.51
+  49 Linear       MCS          1    MCS          0                0            0         1035        54.08         2.51
+  50 Linear       LEXP         1    MCS          0                0            0         1035        54.08         2.53
+  51 Linear       LEXM         0    MCS          0                0            0         1034        54.02         2.50
+  52 Linear       LEXM         0    LEXP         1                0            0         1034        54.02         2.73
+  53 Linear       MCS          0    LEXP         1                0            0         1034        54.02         2.84
+  54 BM-Tree      LEXP         0    LEXM         1                0            0         1034        54.02         5.16
+  55 Linear       LEXP         0    MCS          0                0            0         1033        53.97         2.54
+  56 Linear       RANDOM       0    LEXP         0                0            0         1033        53.97         2.65
+  57 Linear       LEXM         0    LEXP         0                0            0         1033        53.97         2.65
+  58 Linear       LEXM         1    LEXP         0                0            0         1033        53.97         2.68
+  59 Linear       LEXM         1    LEXP         1                0            0         1033        53.97         2.68
+  60 Linear       LEXP         1    LEXP         0                0            0         1033        53.97         2.68
+  61 Linear       MCS          1    LEXP         0                0            0         1033        53.97         2.69
+  62 Linear       LEXP         0    LEXP         0                0            0         1032        53.92         2.67
+  63 Linear       RANDOM       0    LEXP         1                0            0         1032        53.92         2.68
+  64 Linear       LEXP         0    LEXP         1                0            0         1032        53.92         2.70
+  65 Linear       MCS          1    LEXP         1                0            0         1032        53.92         2.70
+  66 Linear       LEXP         1    LEXP         1                0            0         1032        53.92         2.73
+  67 Linear       MCS          0    LEXP         0                0            0         1031        53.87         2.66
+  68 BE-List      MCS          1    RANDOM       0                0           34         1024        53.50         1.80
+  69 Linear       MCS          0    MCS          1                0            0         1019        53.24         3.00
+  70 Linear       LEXP         0    MCS          1                0            0         1019        53.24         3.04
+  71 Linear       LEXM         1    MCS          1                0            0         1019        53.24         3.11
+  72 Linear       RANDOM       0    MCS          1                0            0         1019        53.24         3.12
+  73 BE-List      MCS          1    MCS          0                0            1         1017        53.13         2.33
+  74 Linear       LEXP         1    MCS          1                0            0         1017        53.13         3.02
+  75 Linear       MCS          1    MCS          1                0            0         1017        53.13         3.04
+  76 Linear       LEXM         0    MCS          1                0            0         1017        53.13         3.06
+  77 BE-List      LEXP         1    LEXM         1                0            0         1009        52.72         6.05
+  78 BE-List      LEXP         1    LEXM         0                0            0         1006        52.56         6.33
+  79 Linear       RANDOM       0    RANDOM       0                0            0          997        52.09         4.52
+  80 Linear       LEXM         1    RANDOM       0                0            0          996        52.04         4.59
+  81 Linear       LEXP         1    RANDOM       0                0            0          996        52.04         4.75
+  82 Linear       MCS          1    RANDOM       0                0            0          996        52.04         4.85
+  83 Linear       LEXM         0    RANDOM       0                0            0          995        51.99         4.79
+  84 Linear       MCS          0    RANDOM       0                0            0          994        51.93         4.70
+  85 Linear       LEXP         0    RANDOM       0                0            0          989        51.67         4.79
+  86 BM-Tree      MCS          0    LEXM         1                0            0          988        51.62         6.52
+  87 BM-Tree      MCS          0    LEXM         0                0            0          983        51.36         6.51
+  88 BM-List      MCS          0    LEXM         0                0            0          978        51.10         7.73
+  89 BM-List      MCS          0    LEXM         1                0            0          976        50.99         7.91
+  90 BM-List      MCS          1    LEXP         1                2            2          945        49.37          inf
+  91 BM-List      MCS          1    LEXP         0                0            0          945        49.37          inf
+  92 BE-List      MCS          1    LEXM         0                0            0          928        48.48          inf
+  93 BE-List      MCS          1    LEXM         1                0            1          923        48.22          inf
+  94 BM-List      LEXP         1    LEXP         0                0            1          911        47.60          inf
+  95 Linear       MCS          1    LEXM         1                0            0          902        47.13          inf
+  96 Linear       LEXP         1    LEXM         1                0            0          902        47.13          inf
+  97 Linear       MCS          0    LEXM         0                0            0          901        47.07          inf
+  98 BM-List      LEXP         1    LEXP         1                0            0          900        47.02          inf
+  99 Linear       LEXP         1    LEXM         0                0            0          900        47.02          inf
+ 100 Linear       LEXM         1    LEXM         0                0            0          900        47.02          inf
+ 101 Linear       RANDOM       0    LEXM         1                0            0          900        47.02          inf
+ 102 Linear       RANDOM       0    LEXM         0                0            0          900        47.02          inf
+ 103 Linear       MCS          0    LEXM         1                0            0          900        47.02          inf
+ 104 Linear       LEXP         0    LEXM         1                0            0          900        47.02          inf
+ 105 Linear       LEXP         0    LEXM         0                0            0          900        47.02          inf
+ 106 Linear       LEXM         0    LEXM         1                0            0          900        47.02          inf
+ 107 Linear       LEXM         0    LEXM         0                0            0          900        47.02          inf
+ 108 Linear       MCS          1    LEXM         0                0            0          899        46.97          inf
+ 109 Linear       LEXM         1    LEXM         1                0            0          899        46.97          inf
+ 110 BM-Tree      MCS          1    LEXP         0                0            0          862        45.04          inf
+ 111 BM-Tree      MCS          1    LEXP         1                1            1          845        44.15          inf
+ 112 BM-Tree      LEXP         1    LEXP         0                0            0          823        43.00          inf
+ 113 BM-Tree      LEXP         1    LEXP         1                0            0          818        42.74          inf
+ 114 BM-Tree      LEXM         0    LEXP         1                0            0          812        42.42          inf
+ 115 BM-Tree      RANDOM       0    LEXP         0                0            1          811        42.37          inf
+ 116 BM-Tree      LEXM         0    LEXP         0                0            0          811        42.37          inf
+ 117 BM-Tree      LEXM         1    LEXP         0                0            1          802        41.90          inf
+ 118 BM-Tree      RANDOM       0    LEXP         1                0            0          798        41.69          inf
+ 119 BM-Tree      LEXM         1    LEXP         1                0            1          797        41.64          inf
+ 120 BM-List      LEXM         1    LEXP         0                0            0          766        40.02          inf
+ 121 BM-Tree      LEXM         1    MCS          0                0            0          765        39.97          inf
+ 122 BM-List      LEXM         1    LEXP         1                0            0          762        39.81          inf
+ 123 BM-Tree      LEXM         1    LEXM         0                0            0          762        39.81          inf
+ 124 BM-Tree      LEXM         1    MCS          1                0            0          757        39.55          inf
+ 125 BM-Tree      LEXM         1    RANDOM       0                0            0          755        39.45          inf
+ 126 BM-List      LEXM         0    LEXP         0                0            0          751        39.24          inf
+ 127 BM-List      LEXM         0    LEXP         1                0            0          749        39.13          inf
+ 128 BM-Tree      LEXM         1    LEXM         1                0            0          746        38.98          inf
+ 129 BM-List      LEXP         1    MCS          0                0            0          741        38.71          inf
+ 130 BM-Tree      RANDOM       0    LEXM         0                0            0          739        38.61          inf
+ 131 BM-Tree      RANDOM       0    LEXM         1                0            0          735        38.40          inf
+ 132 BM-Tree      RANDOM       0    RANDOM       0                0            0          733        38.30          inf
+ 133 BM-Tree      LEXM         0    RANDOM       0                0            0          733        38.30          inf
+ 134 BM-List      LEXP         1    RANDOM       0                0            0          731        38.19          inf
+ 135 BM-List      LEXP         1    MCS          1                0            0          724        37.83          inf
+ 136 BM-List      LEXM         1    LEXM         0                0            0          724        37.83          inf
+ 137 BM-Tree      LEXM         0    LEXM         1                0            0          720        37.62          inf
+ 138 BM-Tree      RANDOM       0    MCS          1                0            0          711        37.15          inf
+ 139 BM-Tree      LEXM         0    MCS          0                0            0          708        36.99          inf
+ 140 BM-Tree      LEXM         0    MCS          1                0            0          707        36.94          inf
+ 141 BM-Tree      RANDOM       0    MCS          0                0            0          698        36.47          inf
+ 142 BM-List      MCS          1    RANDOM       0                0            0          697        36.42          inf
+ 143 BM-List      LEXP         1    LEXM         1                0            0          696        36.36          inf
+ 144 BM-List      LEXP         1    LEXM         0                0            0          696        36.36          inf
+ 145 BM-Tree      LEXM         0    LEXM         0                0            0          695        36.31          inf
+ 146 BM-List      MCS          1    MCS          0                0            1          691        36.10          inf
+ 147 BM-List      LEXM         1    LEXM         1                0            0          691        36.10          inf
+ 148 BM-List      MCS          1    LEXM         1                0            0          675        35.27          inf
+ 149 BM-List      MCS          1    LEXM         0                0            0          672        35.11          inf
+ 150 BM-List      LEXM         0    MCS          1                0            0          662        34.59          inf
+ 151 BM-List      LEXM         0    LEXM         1                0            0          662        34.59          inf
+ 152 BM-List      LEXM         0    MCS          0                0            0          657        34.33          inf
+ 153 BM-List      MCS          1    MCS          1                0            0          654        34.17          inf
+ 154 BM-List      LEXM         1    RANDOM       0                0            0          644        33.65          inf
+ 155 BM-List      LEXM         0    RANDOM       0                0            0          642        33.54          inf
+ 156 BM-List      LEXM         0    LEXM         0                0            0          640        33.44          inf
+ 157 BM-List      LEXM         1    MCS          0                1            1          634        33.12          inf
+ 158 BM-List      LEXM         1    MCS          1                0            0          632        33.02          inf
+ 159 BM-List      RANDOM       0    LEXP         0                0            0          603        31.50          inf
+ 160 BM-List      RANDOM       0    LEXP         1                0            0          590        30.83          inf
+ 161 BM-Tree      MCS          1    RANDOM       0                0            0          581        30.36          inf
+ 162 BM-Tree      LEXP         1    RANDOM       0                0            0          581        30.36          inf
+ 163 BM-Tree      MCS          1    LEXM         0                0            0          576        30.09          inf
+ 164 BM-Tree      MCS          1    LEXM         1                0            0          561        29.31          inf
+ 165 BM-Tree      LEXP         1    LEXM         0                0            0          561        29.31          inf
+ 166 BE-List      LEXP         0    MCS          0                0           22          551        28.79          inf
+ 167 BM-Tree      LEXP         1    LEXM         1                0            0          549        28.68          inf
+ 168 BM-Tree      LEXP         1    MCS          0                0            0          527        27.53          inf
+ 169 BE-Tree      LEXP         0    MCS          0                3          152          526        27.48          inf
+ 170 BM-Tree      MCS          1    MCS          0                0            0          523        27.32          inf
+ 171 BM-Tree      LEXP         1    MCS          1                0            0          523        27.32          inf
+ 172 BE-List      LEXP         0    LEXP         0                0            0          504        26.33          inf
+ 173 BM-Tree      MCS          1    MCS          1                0            0          503        26.28          inf
+ 174 BE-List      LEXP         0    LEXP         1                0            0          478        24.97          inf
+ 175 BE-Tree      LEXP         0    LEXP         0                0            1          471        24.61          inf
+ 176 BE-List      LEXP         0    MCS          1                0            0          470        24.56          inf
+ 177 BE-List      MCS          0    LEXP         1                0            0          469        24.50          inf
+ 178 BM-List      RANDOM       0    LEXM         0                0            0          463        24.19          inf
+ 179 BE-Tree      LEXP         0    LEXP         1                0            0          462        24.14          inf
+ 180 BM-List      RANDOM       0    LEXM         1                0            0          457        23.88          inf
+ 181 BE-Tree      MCS          0    LEXP         1                0            2          451        23.56          inf
+ 182 BE-Tree      LEXP         0    MCS          1                0            5          449        23.46          inf
+ 183 BE-List      MCS          0    LEXP         0                0            1          422        22.05          inf
+ 184 BE-List      MCS          0    MCS          0                0           13          420        21.94          inf
+ 185 BE-List      LEXP         0    RANDOM       0                0            0          420        21.94          inf
+ 186 BE-Tree      MCS          0    LEXP         0                0            2          407        21.26          inf
+ 187 BM-List      RANDOM       0    RANDOM       0                0            0          406        21.21          inf
+ 188 BE-Tree      LEXM         1    LEXP         0                0            0          397        20.74          inf
+ 189 BE-Tree      MCS          0    MCS          0                0           52          397        20.74          inf
+ 190 BM-List      RANDOM       0    MCS          0                0            0          396        20.69          inf
+ 191 BE-Tree      LEXP         0    RANDOM       0                0            5          391        20.43          inf
+ 192 BE-Tree      LEXM         1    LEXP         1                0            0          388        20.27          inf
+ 193 BM-List      RANDOM       0    MCS          1                0            0          381        19.91          inf
+ 194 BE-Tree      LEXM         1    MCS          0                0            0          375        19.59          inf
+ 195 BE-Tree      LEXM         1    LEXM         1                0            0          371        19.38          inf
+ 196 BE-Tree      LEXM         0    LEXP         0                0            0          371        19.38          inf
+ 197 BE-Tree      LEXM         1    MCS          1                0            0          365        19.07          inf
+ 198 BE-List      MCS          0    MCS          1                0            0          358        18.70          inf
+ 199 BE-Tree      LEXM         0    LEXP         1                0            0          341        17.82          inf
+ 200 BE-Tree      MCS          0    MCS          1                0            2          339        17.71          inf
+ 201 BE-Tree      LEXM         1    RANDOM       0                0            0          338        17.66          inf
+ 202 BE-Tree      LEXM         0    MCS          0                0            1          338        17.66          inf
+ 203 BE-Tree      LEXM         0    LEXM         0                0            0          335        17.50          inf
+ 204 BE-Tree      LEXM         1    LEXM         0                0            0          332        17.35          inf
+ 205 BE-List      MCS          0    RANDOM       0                0            1          322        16.82          inf
+ 206 BE-Tree      MCS          0    RANDOM       0                0            4          308        16.09          inf
+ 207 BE-List      LEXP         0    LEXM         1                0            0          304        15.88          inf
+ 208 BE-List      LEXP         0    LEXM         0                0            0          299        15.62          inf
+ 209 BE-List      LEXM         1    LEXP         0                0            0          296        15.46          inf
+ 210 BE-Tree      LEXM         0    MCS          1                0            0          296        15.46          inf
+ 211 BE-List      LEXM         1    LEXP         1                0            0          295        15.41          inf
+ 212 BE-Tree      LEXP         0    LEXM         0                0            0          291        15.20          inf
+ 213 BE-Tree      LEXP         0    LEXM         1                0            0          289        15.10          inf
+ 214 BE-Tree      LEXM         0    LEXM         1                0            0          286        14.94          inf
+ 215 BE-List      LEXM         1    LEXM         1                0            0          284        14.84          inf
+ 216 BE-List      LEXM         1    MCS          0                0            0          278        14.52          inf
+ 217 BE-Tree      LEXM         0    RANDOM       0                0            0          276        14.42          inf
+ 218 BE-List      LEXM         1    MCS          1                0            0          272        14.21          inf
+ 219 BE-List      LEXM         0    LEXP         0                0            0          247        12.90          inf
+ 220 BE-List      LEXM         1    LEXM         0                0            0          244        12.75          inf
+ 221 BE-List      MCS          0    LEXM         0                0            0          244        12.75          inf
+ 222 BE-List      LEXM         1    RANDOM       0                0            0          243        12.70          inf
+ 223 BE-List      MCS          0    LEXM         1                0            0          243        12.70          inf
+ 224 BE-List      LEXM         0    LEXP         1                0            0          239        12.49          inf
+ 225 BE-Tree      MCS          0    LEXM         0                0            0          238        12.43          inf
+ 226 BE-List      LEXM         0    LEXM         0                0            0          233        12.17          inf
+ 227 BE-Tree      MCS          0    LEXM         1                0            0          232        12.12          inf
+ 228 BE-List      LEXM         0    MCS          0                0            0          228        11.91          inf
+ 229 BE-List      LEXM         0    MCS          1                0            0          204        10.66          inf
+ 230 BE-List      LEXM         0    LEXM         1                0            0          199        10.40          inf
+ 231 BE-List      LEXM         0    RANDOM       0                0            0          197        10.29          inf
+ 232 Mono         MCS          1    LEXP         0                0            0          188         9.82          inf
+ 233 Mono         LEXP         1    MCS          0                0            0          187         9.77          inf
+ 234 Mono         LEXP         1    LEXP         0                0            1          187         9.77          inf
+ 235 Mono         LEXM         1    MCS          0                0            0          187         9.77          inf
+ 236 Mono         RANDOM       0    MCS          0                0            1          187         9.77          inf
+ 237 Mono         RANDOM       0    LEXP         0                0            0          187         9.77          inf
+ 238 Mono         MCS          1    MCS          0                0            1          187         9.77          inf
+ 239 Mono         MCS          0    MCS          0                0            1          187         9.77          inf
+ 240 Mono         LEXP         0    LEXP         0                0            0          187         9.77          inf
+ 241 Mono         LEXM         0    MCS          0                0            1          187         9.77          inf
+ 242 Mono         LEXM         0    LEXP         0                0            0          187         9.77          inf
+ 243 Mono         LEXM         1    LEXP         0                0            0          186         9.72          inf
+ 244 Mono         MCS          0    LEXP         0                0            0          186         9.72          inf
+ 245 Mono         LEXP         0    MCS          0                0            2          185         9.67          inf
+ 246 Mono         MCS          1    LEXP         1                0            0          178         9.30          inf
+ 247 Mono         RANDOM       0    LEXP         1                0            0          178         9.30          inf
+ 248 Mono         LEXP         0    LEXP         1                0            0          178         9.30          inf
+ 249 Mono         LEXM         0    LEXP         1                0            0          178         9.30          inf
+ 250 Mono         LEXM         1    LEXP         1                0            0          177         9.25          inf
+ 251 Mono         MCS          0    LEXP         1                0            0          177         9.25          inf
+ 252 Mono         LEXP         1    LEXP         1                0            0          177         9.25          inf
+ 253 Mono         RANDOM       0    MCS          1                0            0          166         8.67          inf
+ 254 Mono         LEXP         1    MCS          1                0            0          166         8.67          inf
+ 255 Mono         LEXP         0    MCS          1                0            0          165         8.62          inf
+ 256 Mono         MCS          1    MCS          1                0            0          164         8.57          inf
+ 257 Mono         MCS          0    MCS          1                0            0          164         8.57          inf
+ 258 Mono         LEXM         0    MCS          1                0            0          163         8.52          inf
+ 259 Mono         LEXM         1    MCS          1                0            0          161         8.41          inf
+ 260 BE-Tree      RANDOM       0    LEXP         0                0            1          140         7.31          inf
+ 261 BE-Tree      RANDOM       0    MCS          0                0            0          136         7.11          inf
+ 262 BE-Tree      RANDOM       0    LEXP         1                0            0          135         7.05          inf
+ 263 BE-Tree      RANDOM       0    MCS          1                0            0          126         6.58          inf
+ 264 BE-Tree      RANDOM       0    RANDOM       0                0            0          123         6.43          inf
+ 265 BE-Tree      RANDOM       0    LEXM         1                0            0          108         5.64          inf
+ 266 BE-Tree      RANDOM       0    LEXM         0                0            0          105         5.49          inf
+ 267 Mono         LEXP         1    LEXM         0                0            0           96         5.02          inf
+ 268 Mono         LEXM         1    LEXM         0                0            0           96         5.02          inf
+ 269 Mono         RANDOM       0    LEXM         0                0            0           96         5.02          inf
+ 270 Mono         MCS          1    LEXM         0                0            0           96         5.02          inf
+ 271 Mono         LEXP         0    LEXM         0                0            0           96         5.02          inf
+ 272 Mono         LEXM         0    LEXM         0                0            0           96         5.02          inf
+ 273 Mono         MCS          0    LEXM         0                0            0           95         4.96          inf
+ 274 Mono         LEXM         1    LEXM         1                0            0           92         4.81          inf
+ 275 Mono         MCS          1    LEXM         1                0            0           92         4.81          inf
+ 276 Mono         RANDOM       0    LEXM         1                0            0           92         4.81          inf
+ 277 Mono         LEXP         1    LEXM         1                0            0           92         4.81          inf
+ 278 Mono         LEXM         0    LEXM         1                0            0           92         4.81          inf
+ 279 Mono         MCS          0    LEXM         1                0            0           91         4.75          inf
+ 280 Mono         LEXP         0    LEXM         1                0            0           90         4.70          inf
+ 281 BE-List      RANDOM       0    LEXP         1                0            0           84         4.39          inf
+ 282 BE-List      RANDOM       0    LEXP         0                0            0           83         4.34          inf
+ 283 BE-List      RANDOM       0    MCS          0                0            0           74         3.87          inf
+ 284 Mono         LEXP         1    RANDOM       0                0            0           74         3.87          inf
+ 285 Mono         LEXM         1    RANDOM       0                0            0           74         3.87          inf
+ 286 Mono         MCS          1    RANDOM       0                0            0           74         3.87          inf
+ 287 Mono         LEXP         0    RANDOM       0                0            0           74         3.87          inf
+ 288 Mono         MCS          0    RANDOM       0                0            0           73         3.81          inf
+ 289 Mono         LEXM         0    RANDOM       0                0            0           73         3.81          inf
+ 290 Mono         RANDOM       0    RANDOM       0                0            0           72         3.76          inf
+ 291 BE-List      RANDOM       0    MCS          1                0            0           70         3.66          inf
+ 292 BE-List      RANDOM       0    LEXM         0                0            0           59         3.08          inf
+ 293 BE-List      RANDOM       0    LEXM         1                0            0           53         2.77          inf
+ 294 BE-List      RANDOM       0    RANDOM       0                0            0           53         2.77          inf

@@ -1,0 +1,83 @@
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Analyzing benchmark family BAYES with weight format WEIGHTED
+
+ADDMC errors for benchmark family BAYES with weight format MINIC2D: 0
+
+Excluding overflow completions
+
+Float equality tolerance: BIG - SMALL <= 0.001 if SMALL = 0 or BIG <= 1, else BIG / SMALL <= 1.001
+
+Correctness across heuristic configurations: all good
+
+ADDMC experiment result on 1091 benchmarks in family BAYES with weight format WEIGHTED and timeout 10-second:
+Row  Clustering   Cluster var  Inv  Diagram var  Inv         Unique      Fastest  Completions     Rate (%) Med time (s)
+   0 VBS          VBS          VBS  VBS          VBS             NA           NA         1087        99.63         0.01
+   1 BM-Tree      LEXP         0    MCS          0                0            8         1081        99.08         0.04
+   2 BM-Tree      LEXP         0    MCS          1                0            1         1078        98.81         0.04
+   3 BM-List      LEXP         0    MCS          0                0            0         1074        98.44         0.04
+   4 BM-List      LEXP         0    MCS          1                0            0         1073        98.35         0.04
+   5 BE-Tree      LEXP         1    MCS          0                0           18         1056        96.79         0.01
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Analyzing benchmark family PSEUDOWEIGHTED with weight format WEIGHTED
+
+ADDMC errors for benchmark family PSEUDOWEIGHTED with weight format MINIC2D: 0
+
+Excluding overflow completions
+
+Float equality tolerance: BIG - SMALL <= 0.001 if SMALL = 0 or BIG <= 1, else BIG / SMALL <= 1.001
+
+Correctness across heuristic configurations:
+Number of benchmarks with different model counts: 7
+	Benchmark with different model counts: C638_FKB.cnf
+		(9.07426e+29, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+		(0.0, ('BUCKET_TREE', 'LEXP', '1', 'MCS', '0'))
+	Benchmark with different model counts: comm_p02_p_t8.cnf
+		(2.28945e+23, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+		(8.25296e+22, ('BOUQUET_LIST', 'LEXP', '0', 'MCS', '0'))
+		(8.31222e+22, ('BOUQUET_LIST', 'LEXP', '0', 'MCS', '1'))
+	Benchmark with different model counts: comm_p03_p_t5.cnf
+		(9.02125e+25, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+		(8.94391e+25, ('BOUQUET_LIST', 'LEXP', '0', 'MCS', '0'))
+		(8.91293e+25, ('BOUQUET_LIST', 'LEXP', '0', 'MCS', '1'))
+	Benchmark with different model counts: comm_p03_p_t6.cnf
+		(3.53401e+20, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+		(0.0, ('BUCKET_TREE', 'LEXP', '1', 'MCS', '0'))
+		(4.22271e+20, ('BOUQUET_LIST', 'LEXP', '0', 'MCS', '0'))
+		(3.5226e+20, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '1'))
+		(4.22277e+20, ('BOUQUET_LIST', 'LEXP', '0', 'MCS', '1'))
+	Benchmark with different model counts: comm_p03_p_t7.cnf
+		(8.27848e+38, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+		(8.25914e+38, ('BUCKET_TREE', 'LEXP', '1', 'MCS', '0'))
+	Benchmark with different model counts: comm_p03_p_t9.cnf
+		(0.0, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+		(2.58991e+31, ('BUCKET_TREE', 'LEXP', '1', 'MCS', '0'))
+	Benchmark with different model counts: comm_p04_p_t5.cnf
+		(1.56489e+31, ('BOUQUET_TREE', 'LEXP', '0', 'MCS', '0'))
+		(1.78374e+31, ('BUCKET_TREE', 'LEXP', '1', 'MCS', '0'))
+		(1.21105e+30, ('BOUQUET_LIST', 'LEXP', '0', 'MCS', '0'))
+
+ADDMC experiment result on 823 benchmarks in family PSEUDOWEIGHTED with weight format WEIGHTED and timeout 10-second:
+Row  Clustering   Cluster var  Inv  Diagram var  Inv         Unique      Fastest  Completions     Rate (%) Med time (s)
+   0 VBS          VBS          VBS  VBS          VBS             NA           NA          402        48.85          inf
+   1 BE-Tree      LEXP         1    MCS          0                0           31          357        43.38          inf
+   2 BM-List      LEXP         0    MCS          1                0            2          357        43.38          inf
+   3 BM-List      LEXP         0    MCS          0                3           12          353        42.89          inf
+   4 BM-Tree      LEXP         0    MCS          0                0            2          322        39.13          inf
+   5 BM-Tree      LEXP         0    MCS          1                0            0          318        38.64          inf
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Analyzing all benchmark families
+
+ADDMC experiment result on 1914 benchmarks in family ALTOGETHER with weight format WEIGHTED and timeout 10-second:
+Row  Clustering   Cluster var  Inv  Diagram var  Inv         Unique      Fastest  Completions     Rate (%) Med time (s)
+   0 VBS          VBS          VBS  VBS          VBS             NA           NA         1489        77.80         0.18
+   1 BM-List      LEXP         0    MCS          1                0            2         1430        74.71         0.50
+   2 BM-List      LEXP         0    MCS          0                3           12         1427        74.56         0.48
+   3 BE-Tree      LEXP         1    MCS          0                0           49         1413        73.82         0.20
+   4 BM-Tree      LEXP         0    MCS          0                0           10         1403        73.30         0.41
+   5 BM-Tree      LEXP         0    MCS          1                0            1         1396        72.94         0.44
