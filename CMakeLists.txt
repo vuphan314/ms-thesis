@@ -1,20 +1,22 @@
 PROJECT(cmake_addmc) # overwrites 'Makefile' (lower precedence than manually written 'GNUmakefile' wrt 'make')
 
-CMAKE_MINIMUM_REQUIRED(VERSION 2.8.9)
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8.12)
 
 SET(CMAKE_CXX_STANDARD 14)
 SET(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 SET(CMAKE_CXX_FLAGS "-g -Ofast -static")
 
-SET(lib_dir ${CMAKE_CURRENT_SOURCE_DIR}/lib)
-SET(lib_tar ${lib_dir}.tar)
-SET(cudd_dir ${lib_dir}/cudd-3.0.0)
+SET(lib_dir ${CMAKE_CURRENT_SOURCE_DIR}/addmc/libraries)
+
+SET(cxxopts_target ${lib_dir}/cxxopts/include/cxxopts.hpp)
+
+SET(cudd_dir ${lib_dir}/cudd)
+SET(cudd_target ${cudd_dir}/config.h)
 
 ADD_CUSTOM_COMMAND(
-  OUTPUT ${lib_dir}
-  DEPENDS ${lib_tar}
-  COMMAND tar -xf ${lib_tar} && touch ${lib_dir} && cd ${cudd_dir} && ./configure --enable-silent-rules --enable-obj && make
+  OUTPUT ${cudd_target}
+  COMMAND cd ${cudd_dir} && autoreconf && ./configure --silent --enable-obj && make -s
   WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
@@ -26,12 +28,8 @@ INCLUDE_DIRECTORIES(${cudd_dir}/epd)
 INCLUDE_DIRECTORIES(${cudd_dir}/mtr)
 INCLUDE_DIRECTORIES(${cudd_dir}/st)
 
-INCLUDE_DIRECTORIES(${lib_dir})
+FILE(GLOB cpp_files "addmc/src/implementation/*.cpp")
 
-INCLUDE_DIRECTORIES(src/interface)
-
-FILE(GLOB cpp_files "src/implementation/*.cpp")
-
-ADD_EXECUTABLE(addmc ${cpp_files} ${lib_dir})
+ADD_EXECUTABLE(addmc ${cpp_files} ${cxxopts_target} ${cudd_target})
 
 TARGET_LINK_LIBRARIES(addmc cudd)
