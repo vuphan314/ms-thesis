@@ -1,5 +1,7 @@
-benchmarks
-experimenting
+build
+
+eval/benchmarks*
+eval/data*
 
 *.nnf
 *.query
@@ -11,7 +13,6 @@ venv
 
 *.swp
 
-build
 .vscode
 
 *.sif
