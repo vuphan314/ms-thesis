@@ -1,7 +1,7 @@
 /* DAG of inclusions:
 .>>>> graph  >> formula
 ^               v
-util >> join >> counter >> main*
+util >> join >> counter >> addmc
 v               ^
 .>>>>>>>>>>>>>> visual
 */
