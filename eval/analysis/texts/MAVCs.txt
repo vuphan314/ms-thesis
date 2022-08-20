@@ -1,0 +1,8 @@
+Low MAVC    & High MAVC   & MAVC count  & B count     & Solved      & Percent     & Median time \\
+          4 &         246 &         154 &        1749 &        1404 &       80.27 &        0.09 \\
+        248 &        7663 &         106 &         159 &           0 &        0.00 &      \infty \\
+
+Low MAVC    & High MAVC   & MAVC count  & B count     & Solved      & Percent     & Median time \\
+          4 &          69 &          62 &        1425 &        1345 &       94.39 &        0.05 \\
+         70 &         100 &          24 &         104 &          47 &       45.19 &      \infty \\
+        102 &        7663 &         174 &         379 &          12 &        3.17 &      \infty \\

@@ -1,0 +1,17 @@
+Underflows:  68, of 823 -- ADDMC & WeightFormat.MINIC2D
+Underflows:   0, of 823 -- c2d & WeightFormat.DDNNF
+Underflows:  10, of 823 -- Cachet & WeightFormat.CACHET
+Underflows:  13, of 823 -- d4 & WeightFormat.DDNNF
+Underflows: 164, of 823 -- miniC2D & WeightFormat.MINIC2D
+
+Overflows: 32, of 1914 -- ADDMC & WeightFormat.MINIC2D
+Overflows: 24, of 1914 -- c2d & WeightFormat.DDNNF
+Overflows:  0, of 1914 -- Cachet & WeightFormat.CACHET
+Overflows: 34, of 1914 -- d4 & WeightFormat.DDNNF
+Overflows: 24, of 1914 -- miniC2D & WeightFormat.MINIC2D
+
+Bayes weighted counting: c2d compiler's average portion of total time:   81.65%
+
+Benchmarks solved by all 5 counters: 1008
+Benchmarks whose a counter's answers differ from all other counters' answers:
+[(<Counter.ADDMC: 'ADDMC'>, 7), (<Counter.CACHET: 'Cachet'>, 55), (<Counter.D4: 'd4'>, 42)]
