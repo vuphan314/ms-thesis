@@ -1,7 +1,13 @@
 build
 
-eval/benchmarks*
-eval/data*
+eval/AutoSubmissionLog-*.txt
+
+eval/benchmarks.zip
+eval/benchmarks/
+
+eval/data.py
+eval/data.zip
+eval/data/
 
 *.nnf
 *.query

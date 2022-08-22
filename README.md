@@ -12,9 +12,7 @@ git clone https://github.com/vuphan314/ms-thesis
 
 --------------------------------------------------------------------------------
 
-## Downloading
-- [Benchmarks](https://github.com/vuphan314/ms-thesis/releases/download/v0/benchmarks.zip)
-- [Experimental data](https://github.com/vuphan314/ms-thesis/releases/download/v0/experimenting.zip)
+## [Evaluation](./eval/)
 
 --------------------------------------------------------------------------------
 

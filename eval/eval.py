@@ -740,7 +740,7 @@ class CommandSpec:
 
 class SlurmArrayRun:
     def __init__(self, commandSpecs, commandTimeout, commandsPerJob):
-        randNum = random.randrange(1e3)
+        randNum = random.randrange(1000)
         print('\nRandom SLURM array number: {}'.format(randNum))
         self.arrayId = randNum
         self.commandSpecs = commandSpecs
@@ -1526,7 +1526,7 @@ def writeDataToPyFile(pyFilePath):
     with open(pyFilePath, 'w') as pyFile:
         pyFile.write(lines)
 
-    os.chmod(pyFilePath, stat.S_IRUSR ^ stat.S_IWUSR ^ stat.S_IXUSR) # owner reads/writes/executes
+    # os.chmod(pyFilePath, stat.S_IRUSR ^ stat.S_IWUSR ^ stat.S_IXUSR) # owner reads/writes/executes
 
     print('\nOverwrote file: {}\n'.format(pyFilePath))
 
