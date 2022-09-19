@@ -204,10 +204,11 @@ c ==================================================================
 --------------------------------------------------------------------------------
 
 ## Acknowledgment
+- Dudek, Phan, Vardi: [ADDMC](https://github.com/vardigroup/ADDMC)
 - Tabajara: [RSynth](https://bitbucket.org/lucas-mt/rsynth)
 - Somenzi: [CUDD package](https://github.com/ivmai/cudd)
 - Rutenbar: [CUDD tutorial](http://db.zmitac.aei.polsl.pl/AO/dekbdd/F01-CUDD.pdf)
 - Kebo: [CUDD visualization](https://davidkebo.com/cudd#cudd6)
 - Beck: [cxxopts](https://github.com/jarro2783/cxxopts)
-- Kautz and Sang: [Cachet](https://cs.rochester.edu/u/kautz/Cachet)
-- Hecher and Fichte: [model-counting competition](https://mccompetition.org/2020/mc_format)
+- Kautz and Sang: [Cachet](https://henrykautz.com/Cachet/)
+- Hecher and Fichte: [Model Counting Competition](https://mccompetition.org/2020/mc_format)
