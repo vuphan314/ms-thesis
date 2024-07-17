@@ -1,5 +1,5 @@
 # Weighted Model Counting with Algebraic Decision Diagrams
-- This repository supplements Vu Phan's [MS thesis](https://scholarship.rice.edu/handle/1911/107761) in Computer Science at Rice University.
+- This repository supplements Vu Phan's [MS thesis](https://repository.rice.edu/items/a1a5e73d-a001-44ca-9730-25a7277c8af1) in Computer Science at Rice University.
 - We provide ADDMC, an exact solver for *weighted model counting (WMC)*.
 - ADDMC uses *algebraic decision diagrams (ADDs)*.
 
